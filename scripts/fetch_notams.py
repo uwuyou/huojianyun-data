@@ -20,6 +20,7 @@ import os
 import re
 import sys
 import json
+import html as _html
 import subprocess
 from datetime import datetime, timezone, timedelta
 
@@ -35,6 +36,7 @@ from notam_parser import (
     DAIP_LOCATIONS, FREEFORM_TERMS,
     parse_daip_response, analyze,
     build_prediction_from_daip, build_prediction_from_ll,
+    build_prediction_from_rll,
     build_history, build_history_from_ll,
 )
 
@@ -49,6 +51,8 @@ UTC = timezone.utc
 DAIP_INDEX_URL = 'https://www.daip.jcs.mil/daip/mobile/index'
 DAIP_QUERY_URL = 'https://www.daip.jcs.mil/daip/mobile/query'
 LL_URL = 'https://ll.thespacedevs.com/2.2.0/launch/upcoming?limit=100'
+RLL_URL = 'https://fdo.rocketlaunch.live/json/launches/next/5'
+SFN_URL = 'https://spaceflightnow.com/launch-schedule/'
 FAA_INDEX_URL = 'https://notams.aim.faa.gov/notamSearch/nsapp.html'
 FAA_URL = 'https://notams.aim.faa.gov/notamSearch/search'
 
@@ -138,6 +142,100 @@ def fetch_ll_previous():
     launches = data.get('results', []) or []
     return [l for l in launches
             if isinstance(l, dict) and _ll_country_code(l) == 'CHN']
+
+
+RLL_HEADERS = {
+    'Accept': 'application/json',
+    'User-Agent': 'Mozilla/5.0 (huojianyun observer)',
+}
+
+
+def fetch_rll():
+    """抓取 RocketLaunch.Live 免费端点（未来 5 次发射）。"""
+    r = requests.get(RLL_URL, headers=RLL_HEADERS, timeout=20)
+    r.raise_for_status()
+    data = r.json()
+    return data.get('result', []) or []
+
+
+# ---------- Spaceflight Now HTML 解析 ----------
+_SFN_MONTHS = {
+    'january': 1, 'february': 2, 'march': 3, 'april': 4, 'may': 5, 'june': 6,
+    'july': 7, 'august': 8, 'september': 9, 'october': 10, 'november': 11, 'december': 12,
+}
+_SFN_CHINA_KW = ('china', 'long march', 'jiuquan', 'wenchang', 'xichang',
+                 'taiyuan', 'kuaizhou', 'ceres', 'zhongke', 'galactic energy',
+                 'i-space', 'space pioneer', 'landspace')
+
+
+def _strip_tags(s):
+    """去除 HTML 标签并反转义，返回纯文本。"""
+    if not s:
+        return ''
+    s = re.sub(r'<[^>]+>', '', s)
+    return _html.unescape(s).strip()
+
+
+def _guess_sfn_datetime(date_str, hh, mi, cur_year):
+    """根据 SFN 的日期文本（如 'August 15'）与 UTC 时分，推断 datetime。"""
+    m = re.match(r'([A-Za-z]+)[./\s]*(\d{1,2})', (date_str or '').strip())
+    if not m:
+        return None
+    mon = _SFN_MONTHS.get(m.group(1).lower())
+    if not mon:
+        return None
+    day = int(m.group(2))
+    try:
+        dt = datetime(cur_year, mon, day, hh, mi, tzinfo=UTC)
+    except ValueError:
+        return None
+    # SFN 无年份：若已过去超过 2 天，视为下一年
+    if dt < datetime.now(UTC) - timedelta(days=2):
+        dt = dt.replace(year=cur_year + 1)
+    return dt
+
+
+def fetch_sfn():
+    """
+    抓取 Spaceflight Now 发射日程 HTML，解析中国发射为标准 launch 结构
+    （与 Launch Library 2 字段形状一致，供 build_prediction_from_ll 复用）。
+    """
+    r = requests.get(SFN_URL, headers=LL_HEADERS, timeout=20)
+    r.raise_for_status()
+    txt = r.text
+    date_blocks = re.findall(r'<div class="datename">(.*?)</div>', txt, re.S)
+    data_blocks = re.findall(r'<div class="missiondata">(.*?)</div>', txt, re.S)
+    cur_year = datetime.now(UTC).year
+    out = []
+    for db, mb in zip(date_blocks, data_blocks):
+        dm = re.search(r'<span class="launchdate">\s*(.*?)\s*</span>', db, re.S)
+        mm = re.search(r'<span class="mission">\s*(.*?)\s*</span>', db, re.S)
+        date_str = _strip_tags(dm.group(1)) if dm else ''
+        mission_str = _strip_tags(mm.group(1)) if mm else ''
+        sm = re.search(r'Launch site:</span>\s*(.*?)(?:<BR>|<br>|</div>)', mb, re.S | re.I)
+        site_str = _strip_tags(sm.group(1)) if sm else ''
+        blob = (mission_str + ' ' + site_str).lower()
+        if not any(k in blob for k in _SFN_CHINA_KW):
+            continue
+        rocket = mission_str.split('•')[0].strip() if '•' in mission_str else mission_str
+        payload = mission_str.split('•', 1)[1].strip() if '•' in mission_str else ''
+        tm = re.search(r'(\d{1,2}):?(\d{2})\s*UTC', mb, re.I)
+        dt = None
+        if tm and date_str:
+            dt = _guess_sfn_datetime(date_str, int(tm.group(1)), int(tm.group(2)), cur_year)
+        if not dt:
+            continue
+        iso = dt.strftime('%Y-%m-%dT%H:%M:%S+00:00')
+        out.append({
+            'name': mission_str,
+            'net': iso,
+            'window_start': iso,
+            'window_end': iso,
+            'rocket': {'configuration': {'full_name': rocket}},
+            'mission': {'name': payload, 'type': ''},
+            'pad': {'location': {'name': site_str}},
+        })
+    return out
 
 
 def fetch_faa():
@@ -439,7 +537,36 @@ def main():
         print('[!] LL 失败: %s' % e)
         errors.append('LL: %s' % e)
 
-    # 3) FAA NOTAM（美国域 NOTAM，海射/跨境任务）
+    # 3) RocketLaunch.Live（免费端点，未来 5 次发射）
+    try:
+        print('[*] 尝试 RocketLaunch.Live ...')
+        rll = fetch_rll()
+        rll_pred = build_prediction_from_rll(rll)
+        if rll_pred and (rll_pred.get('next_launch') or rll_pred.get('upcoming')):
+            preds.append(rll_pred)
+            pred_sources.append('RocketLaunch.Live')
+            sources_used.append('RocketLaunch.Live')
+        print('[+] RLL 返回 %d 条（有效 %d）' % (
+            len(rll), 1 if (rll_pred and rll_pred.get('next_launch')) else 0))
+    except Exception as e:
+        print('[!] RLL 失败: %s' % e)
+        errors.append('RLL: %s' % e)
+
+    # 4) Spaceflight Now（HTML 解析，中国发射）
+    try:
+        print('[*] 尝试 Spaceflight Now ...')
+        sfn = fetch_sfn()
+        sfn_pred = build_prediction_from_ll(sfn)
+        if sfn_pred and (sfn_pred.get('next_launch') or sfn_pred.get('upcoming')):
+            preds.append(sfn_pred)
+            pred_sources.append('Spaceflight Now')
+            sources_used.append('Spaceflight Now')
+        print('[+] SFN 返回 %d 条' % len(sfn))
+    except Exception as e:
+        print('[!] SFN 失败: %s' % e)
+        errors.append('SFN: %s' % e)
+
+    # 5) FAA NOTAM（美国域 NOTAM，海射/跨境任务）
     try:
         print('[*] 尝试 FAA NOTAM ...')
         faa_records = fetch_faa()

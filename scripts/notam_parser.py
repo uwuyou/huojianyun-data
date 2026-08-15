@@ -695,6 +695,85 @@ def build_prediction_from_ll(launches):
     }
 
 
+# ---------- RocketLaunch.Live 预测数据生成 ----------
+def build_prediction_from_rll(launches):
+    """
+    从 RocketLaunch.Live 免费端点（/json/launches/next/5）构建预测数据。
+    RLL 无落区坐标，path 默认指向发射场自身；但能提供火箭/任务名。
+    """
+    items = []
+    for l in launches:
+        loc = ((l.get('pad') or {}).get('location')) or {}
+        site_name = _map_site_name(loc.get('name', ''))
+        if not site_name:
+            continue
+        site = _site_by_name(site_name)
+        if not site:
+            continue
+
+        net = _parse_iso(l.get('t0')) or _parse_iso(l.get('win_open')) or datetime.now(UTC)
+        start = _parse_iso(l.get('win_open')) or net
+        end = _parse_iso(l.get('win_close')) or net
+        sun_alt = solar_altitude_deg(site['lat'], site['lng'], net)
+        twilight_fav = is_twilight(sun_alt)
+
+        vehicle = (l.get('vehicle') or {}).get('name') or '火箭'
+        missions = l.get('missions') or []
+        m_name = missions[0].get('name') if missions and isinstance(missions[0], dict) else ''
+        if m_name and m_name.upper() in ('TBD', 'UNKNOWN', 'UNCONFIRMED', 'UNKNOWN PAYLOAD'):
+            m_name = ''
+        code = ('%s · %s' % (vehicle, m_name)) if m_name else vehicle
+
+        debris_lat = site['lat']
+        debris_lng = site['lng']
+        path = [[site['lat'], site['lng']], [debris_lat, debris_lng]]
+        bj_str = _bj_full(net)
+        twilight_desc_str = twilight_desc(sun_alt)
+        est_t0 = net - timedelta(minutes=18)
+
+        if twilight_fav:
+            note = '接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄'
+        elif sun_alt >= 0:
+            note = '白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云'
+        else:
+            note = '深夜发射，高空进入地影，无法拍摄'
+
+        items.append({
+            'code': code,
+            'site': site_name,
+            'site_lat': site['lat'],
+            'site_lng': site['lng'],
+            'mission_type': '待定',
+            'window_start': iso_bj(start),
+            'window_end': iso_bj(end),
+            'est_t0': iso_bj(est_t0),
+            'debris_zone': '落区详情待官方公布',
+            'debris_lat': debris_lat,
+            'debris_lng': debris_lng,
+            'direction': '待定',
+            'twilight_favorable': twilight_fav,
+            'note': note,
+            'spots': site['spots'],
+            'path': path,
+            'label': '%s · %s' % (bj_str, code),
+            'launchTime': _iso_utc_z(net),
+            'sunAlt': round(sun_alt * 100) / 100.0,
+            'twilight': twilight_fav,
+            'twilightDesc': twilight_desc_str,
+            'status': 'go',
+        })
+
+    items.sort(key=lambda x: x['window_start'] or '')
+    if not items:
+        return None
+    return {
+        'fetched_at': iso_bj(datetime.now(UTC)),
+        'source': 'RocketLaunch.Live',
+        'next_launch': items[0],
+        'upcoming': items[1:] if len(items) > 1 else [],
+    }
+
+
 # ---------- 历史任务生成 ----------
 def build_history(records):
     """
