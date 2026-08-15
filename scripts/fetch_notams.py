@@ -131,17 +131,35 @@ def _ll_country_code(launch):
     return ''
 
 
-LL_PREV_URL = 'https://ll.thespacedevs.com/2.2.0/launch/previous?limit=40'
+LL_PREV_URL = 'https://ll.thespacedevs.com/2.2.0/launch/previous?limit=100&offset={offset}'
+LL_PREV_PAGES = 6  # 每页 100 条，拉 6 页约覆盖 2 年中国发射
 
 
 def fetch_ll_previous():
-    """抓取 Launch Library 2 历史发射（previous），过滤 country_code == 'CHN'。"""
-    r = requests.get(LL_PREV_URL, headers=LL_HEADERS, timeout=20)
-    r.raise_for_status()
-    data = r.json()
-    launches = data.get('results', []) or []
-    return [l for l in launches
-            if isinstance(l, dict) and _ll_country_code(l) == 'CHN']
+    """分页抓取 Launch Library 2 历史发射（previous），过滤 country_code == 'CHN' 并按 id 去重。"""
+    all_launches = []
+    for page in range(LL_PREV_PAGES):
+        url = LL_PREV_URL.format(offset=page * 100)
+        r = requests.get(url, headers=LL_HEADERS, timeout=20)
+        r.raise_for_status()
+        data = r.json()
+        results = data.get('results', []) or []
+        if not results:
+            break
+        all_launches.extend(results)
+    seen = set()
+    china = []
+    for l in all_launches:
+        if not isinstance(l, dict):
+            continue
+        if _ll_country_code(l) != 'CHN':
+            continue
+        lid = l.get('id')
+        if lid in seen:
+            continue
+        seen.add(lid)
+        china.append(l)
+    return china
 
 
 RLL_HEADERS = {
@@ -583,6 +601,10 @@ def main():
     # 合并去重
     merged_items = merge_launch_items(preds, pred_sources)
     merged_history = merge_history_items(histories)
+    # 历史归档保留最近 N 条（升序，取末尾最新），避免文件无限膨胀
+    MAX_HISTORY = 150
+    if len(merged_history) > MAX_HISTORY:
+        merged_history = merged_history[-MAX_HISTORY:]
     source_label = ' + '.join(sources_used) or '无'
 
     if not merged_items and not merged_history:
