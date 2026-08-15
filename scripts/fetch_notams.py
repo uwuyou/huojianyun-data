@@ -251,9 +251,17 @@ def main():
     try:
         print('[*] 尝试 DAIP ...')
         records = fetch_daip()
+        # DEBUG: 打印每条记录的关键字段，便于排查过滤问题
+        now_dbg = datetime.now(UTC)
+        for i, r in enumerate(records):
+            print('[DBG] rec %d: code=%s fir=%s site=%s start=%s end=%s coord=%s expired=%s' % (
+                i, r.get('code',''), r.get('fir',''), r.get('site',''),
+                r.get('start'), r.get('end'), r.get('coord'),
+                (r.get('end') and r['end'] < now_dbg)))
         prediction = build_prediction_from_daip(records)
         history = build_history(records)
-        print('[+] DAIP 返回 %d 条记录' % len(records))
+        print('[+] DAIP 返回 %d 条记录, valid=%d' % (
+            len(records), 1 if prediction.get('next_launch') else 0))
         if prediction.get('next_launch'):
             return finalize(prediction, history, records, 'DAIP NOTAM', now, None)
         # 有记录但无未来发射，继续尝试 LL
