@@ -17,6 +17,7 @@ GitHub Actions 定时任务：抓取多数据源 → 解析 → 合并去重 →
 """
 
 import os
+import re
 import sys
 import json
 import subprocess
@@ -258,6 +259,17 @@ def finalize(prediction, history, records, source, now, error):
 
 
 # ---------- 多源合并去重 ----------
+_NOTAM_CODE_RE = re.compile(r'^[A-Z]\d{4}/\d{2}')
+
+
+def _is_notam_code(s):
+    """判断是否为 NOTAM 编号（如 A2363/26、B4090/26），而非火箭名。"""
+    if not s:
+        return False
+    head = str(s).split('+')[0].strip()
+    return bool(_NOTAM_CODE_RE.match(head))
+
+
 def _parse_bj_iso(s):
     """解析北京时间 ISO 字符串（含 +08:00）为 aware datetime，失败返回 None。"""
     if not s:
@@ -302,6 +314,10 @@ def _absorb_launch(target, src):
     if src.get('mission_type') and (not target.get('mission_type')
                                     or target.get('mission_type') in ('待定', '卫星发射')):
         target['mission_type'] = src['mission_type']
+    # 火箭/任务名：target 是 NOTAM 编号、src 是火箭名时，优先展示火箭名
+    if _is_notam_code(target.get('code')) and not _is_notam_code(src.get('code')) and src.get('code'):
+        target['code'] = src['code']
+        target['label'] = src.get('label', target.get('label'))
     # 时间窗取更早开始
     t_s = _parse_bj_iso(target.get('window_start'))
     s_s = _parse_bj_iso(src.get('window_start'))
