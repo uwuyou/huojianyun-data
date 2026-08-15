@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-15T22:53:43+08:00",
-  "source": "DAIP NOTAM + Launch Library 2",
+  "fetched_at": "2026-08-15T23:03:38+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2C · Unknown Payload",
     "site": "太原卫星发射中心",
@@ -90,7 +90,7 @@
         ]
       ]
     ],
-    "source": "DAIP NOTAM + Launch Library 2"
+    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
     {
@@ -171,7 +171,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Zhuque-3 · Flight 2",
@@ -285,7 +285,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Long March 5 · Chang'e 7",
