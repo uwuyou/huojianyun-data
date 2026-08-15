@@ -461,42 +461,73 @@ def build_prediction_from_daip(records):
     从 DAIP 记录构建预测数据。
     1) 过滤结束时间在未来且 site 非『未知』的记录
     2) 按开始时间排序
-    3) 合并同发射场且窗口起始相差 < 90 分钟的记录
-    4) 构建预测项（含真实落区坐标、path、太阳高度角、晨昏信息、落区多边形）
-    5) 返回 {fetched_at, source, next_launch, upcoming}
+    3) 合并窗口起始相差 < 90 分钟的记录（不依赖 site 判定，
+       因为落区坐标可能导致发射场误判，如酒泉二级落区在安康会被误判为太原）
+    4) 对每个合并组，按距离最近的发射场确定发射场
+    5) 构建多点航迹 path：[发射场, 落区1, 落区2, ...]
+    6) 返回 {fetched_at, source, next_launch, upcoming}
     """
     now = datetime.now(UTC)
     valid = [r for r in records
              if r.get('end') and r['end'] >= now and r.get('site') and r['site'] != '未知']
     valid.sort(key=lambda r: r['start'] or datetime.max.replace(tzinfo=UTC))
 
-    # 合并同发射场且窗口起始相差 < 90 分钟
+    # 合并窗口起始相差 < 90 分钟的记录（不再要求同 site）
     merged = []
     for r in valid:
         last = merged[-1] if merged else None
-        if (last and last['site'] == r['site']
-                and last.get('start') and r.get('start')
+        if (last and last.get('start') and r.get('start')
                 and abs((r['start'] - last['start']).total_seconds()) < 90 * 60):
+            # 合并到上一条
             if r['start'] < last['start']:
                 last['start'] = r['start']
             if r.get('end') and (not last.get('end') or r['end'] > last['end']):
                 last['end'] = r['end']
             if r.get('coord_polygon'):
                 last.setdefault('polygons', []).append(r['coord_polygon'])
+            if r.get('coord'):
+                last.setdefault('all_coords', []).append(r['coord'])
             last.setdefault('codes', [last.get('code', '')]).append(r.get('code', ''))
             continue
         new_rec = dict(r)
         new_rec['polygons'] = [r['coord_polygon']] if r.get('coord_polygon') else []
+        new_rec['all_coords'] = [r['coord']] if r.get('coord') else []
         new_rec['codes'] = [r.get('code', '')]
         merged.append(new_rec)
 
     items = []
     for rec in merged:
-        site = _site_by_name(rec['site'])
+        # 对合并组，按落区坐标距离重新确定发射场
+        all_coords = rec.get('all_coords') or []
+        if len(all_coords) > 1:
+            # 多个落区：找距离任意落区最近的发射场
+            best_site = None
+            best_dist = float('inf')
+            for site_info in LAUNCH_SITES:
+                for c in all_coords:
+                    d = math.sqrt((site_info['lat'] - c[0]) ** 2 + (site_info['lng'] - c[1]) ** 2)
+                    if d < best_dist:
+                        best_dist = d
+                        best_site = site_info
+            site = best_site or _site_by_name(rec['site'])
+        else:
+            site = _site_by_name(rec['site'])
+
         lat = site['lat'] if site else 0
         lng = site['lng'] if site else 0
-        debris_lat = rec['coord'][0] if rec.get('coord') else lat
-        debris_lng = rec['coord'][1] if rec.get('coord') else lng
+
+        # 构建多点航迹：发射场 → 各落区（按距发射场远近排序）
+        if len(all_coords) > 1:
+            sorted_coords = sorted(all_coords, key=lambda c: math.sqrt((lat - c[0]) ** 2 + (lng - c[1]) ** 2))
+            # 最终落区是最远的那个
+            debris_lat = sorted_coords[-1][0]
+            debris_lng = sorted_coords[-1][1]
+            # path: [发射场, 落区1, 落区2, ...]
+            path = [[lat, lng]] + [[c[0], c[1]] for c in sorted_coords]
+        else:
+            debris_lat = rec['coord'][0] if rec.get('coord') else lat
+            debris_lng = rec['coord'][1] if rec.get('coord') else lng
+            path = [[lat, lng], [debris_lat, debris_lng]]
 
         start = rec.get('start') or now
         end = rec.get('end') or start
@@ -514,7 +545,6 @@ def build_prediction_from_daip(records):
         else:
             debris_zone = '落区待定'
 
-        path = [[lat, lng], [debris_lat, debris_lng]]
         bj_str = _bj_full(start)
         twilight_desc_str = twilight_desc(sun_alt)
         code_str = ' + '.join(rec.get('codes') or [rec.get('code', '')])
