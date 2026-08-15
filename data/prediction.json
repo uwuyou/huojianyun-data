@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-15T22:49:01+08:00",
+  "fetched_at": "2026-08-15T22:52:12+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "A2363/26 + A2363/26",
+    "code": "Long March 2C · Unknown Payload",
     "site": "太原卫星发射中心",
     "site_lat": 38.849,
     "site_lng": 111.608,
@@ -46,7 +46,7 @@
         119.55
       ]
     ],
-    "label": "2026年07月01日 00:00 · A2363/26 + A2363/26",
+    "label": "2026年08月17日 11:00 · Long March 2C",
     "launchTime": "2026-06-30T16:00:00.000Z",
     "sunAlt": -32.09,
     "twilight": false,
@@ -94,7 +94,7 @@
   },
   "upcoming": [
     {
-      "code": "B4090/26",
+      "code": "Long March 12 · Unknown Payload",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -141,7 +141,7 @@
           119.2067
         ]
       ],
-      "label": "2026年08月16日 12:03 · B4090/26",
+      "label": "2026年08月16日 12:10 · Long March 12",
       "launchTime": "2026-08-16T04:03:00.000Z",
       "sunAlt": 81.99,
       "twilight": false,
@@ -174,7 +174,7 @@
       "source": "DAIP NOTAM + Launch Library 2"
     },
     {
-      "code": "A3624/26 + A3625/26",
+      "code": "Zhuque-3 · Flight 2",
       "site": "酒泉卫星发射中心",
       "site_lat": 40.967,
       "site_lng": 100.267,
@@ -225,7 +225,7 @@
           108.6708
         ]
       ],
-      "label": "2026年08月19日 07:27 · A3624/26 + A3625/26",
+      "label": "2026年08月19日 07:35 · Zhuque-3",
       "launchTime": "2026-08-18T23:27:00.000Z",
       "sunAlt": 13.89,
       "twilight": false,
@@ -288,7 +288,7 @@
       "source": "DAIP NOTAM + Launch Library 2"
     },
     {
-      "code": "B3624/26 + B3623/26",
+      "code": "Long March 5 · Chang'e 7",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -339,7 +339,7 @@
           125.7467
         ]
       ],
-      "label": "2026年08月24日 08:00 · B3624/26 + B3623/26",
+      "label": "2026年08月24日 08:00 · Long March 5",
       "launchTime": "2026-08-24T00:00:00.000Z",
       "sunAlt": -41.03,
       "twilight": false,
