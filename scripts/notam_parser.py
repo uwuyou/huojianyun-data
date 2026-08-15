@@ -317,14 +317,20 @@ def assign_launch_site(fir, coord):
     """根据 FIR 与落区坐标推断发射场（移植自 notam.js assignLaunchSite）。"""
     if coord:
         lat, lng = coord
-        if 106 < lng < 127 and lat < 20 and fir in ('ZGZU', 'ZJSA', 'RPHI'):
+        # 文昌：南海落区（纬度 < 20），FIR 未知时也判定
+        if lat < 20 and 100 < lng < 130:
             return '文昌航天发射场'
-        if 100 < lng < 112 and 31 < lat < 42 and fir == 'ZLHW':
-            return '酒泉卫星发射中心'
-        if 108 < lng < 114 and 32 < lat < 39 and fir in ('ZHWH', 'ZLHW', 'ZXXX'):
+        # 西昌：四川/云贵落区（纬度 24-32, 经度 98-110）
+        if 24 < lat < 32 and 98 < lng < 110:
+            return '西昌卫星发射中心'
+        # 太原：山西/渤海落区（纬度 32-42, 经度 108-125）
+        if 32 < lat < 42 and 108 < lng < 125:
             return '太原卫星发射中心'
+        # 酒泉：蒙古/甘肃落区（纬度 35-46, 经度 95-115）
+        if 35 < lat < 46 and 95 < lng < 115:
+            return '酒泉卫星发射中心'
     for site in LAUNCH_SITES:
-        if fir in site['fir']:
+        if fir and fir != 'UNKNOWN' and fir in site['fir']:
             return site['name']
     return '未知'
 
@@ -389,9 +395,10 @@ def parse_daip_response(data):
         if isinstance(it, str):
             raw = it
         elif isinstance(it, dict):
-            raw = (it.get('message') or it.get('raw') or it.get('text')
-                   or it.get('traditionalMessage') or it.get('icaoMessage')
-                   or it.get('notamText') or it.get('traditionalMessageFrom4thWord') or '')
+            raw = (it.get('rawtext') or it.get('message') or it.get('raw')
+                   or it.get('text') or it.get('traditionalMessage')
+                   or it.get('icaoMessage') or it.get('notamText')
+                   or it.get('traditionalMessageFrom4thWord') or '')
         else:
             continue
         if not raw or not is_relevant_area_notam(raw):
