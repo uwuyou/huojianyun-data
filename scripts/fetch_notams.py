@@ -251,23 +251,6 @@ def main():
     try:
         print('[*] 尝试 DAIP ...')
         records = fetch_daip()
-        # DEBUG: dump raw DAIP response structure (first 2000 chars)
-        try:
-            s = requests.Session()
-            s.headers.update(DAIP_HEADERS)
-            r = s.post(DAIP_QUERY_URL, json=DAIP_PAYLOAD, verify=False, timeout=15)
-            raw_resp = r.text[:2000]
-            print('[DBG] DAIP raw response (first 2000 chars):')
-            print(raw_resp)
-        except Exception as e:
-            print('[DBG] Failed to dump raw response: %s' % e)
-        # DEBUG: 打印每条记录的关键字段，便于排查过滤问题
-        now_dbg = datetime.now(UTC)
-        for i, r in enumerate(records):
-            print('[DBG] rec %d: code=%s fir=%s site=%s start=%s end=%s coord=%s expired=%s' % (
-                i, r.get('code',''), r.get('fir',''), r.get('site',''),
-                r.get('start'), r.get('end'), r.get('coord'),
-                (r.get('end') and r['end'] < now_dbg)))
         prediction = build_prediction_from_daip(records)
         history = build_history(records)
         print('[+] DAIP 返回 %d 条记录, valid=%d' % (
