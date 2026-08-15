@@ -1,4 +1,205 @@
 {
-  "fetched_at": "2026-08-15T22:28:43+08:00",
-  "records": []
+  "fetched_at": "2026-08-15T22:49:01+08:00",
+  "records": [
+    {
+      "code": "Long March 4B · Haiyang 2E",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "07-02 07:46 · 白天发射 · Long March 4B · Haiyang 2E",
+      "launchTime": "2026-07-01T23:46:00Z",
+      "sunAlt": 19.05,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 19.0°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 6A · SpaceSail Polar Group #13",
+      "site": "太原卫星发射中心",
+      "color": "#1E8449",
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          38.849,
+          111.608
+        ]
+      ],
+      "label": "07-04 17:30 · 白天发射 · Long March 6A · SpaceSail Polar Group #13",
+      "launchTime": "2026-07-04T09:30:00Z",
+      "sunAlt": 27.03,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 27.0°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 8A · SpaceSail Polar Group #14",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "07-05 21:43 · 白天发射 · Long March 8A · SpaceSail Polar Group #14",
+      "launchTime": "2026-07-05T13:43:00Z",
+      "sunAlt": -29.29,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -29.3°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 10B · Demo Flight",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "07-10 12:15 · 白天发射 · Long March 10B · Demo Flight",
+      "launchTime": "2026-07-10T04:15:00Z",
+      "sunAlt": 83.2,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 83.2°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 3B/E · Tianlian 2-06",
+      "site": "西昌卫星发射中心",
+      "color": "#1F618D",
+      "path": [
+        [
+          28.2463,
+          102.027
+        ],
+        [
+          28.2463,
+          102.027
+        ]
+      ],
+      "label": "07-23 20:00 · 白天发射 · Long March 3B/E · Tianlian 2-06",
+      "launchTime": "2026-07-23T12:00:00Z",
+      "sunAlt": 0.82,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 0.8°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Kinetica 1 · 5 satellites",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "07-24 07:33 · 白天发射 · Kinetica 1 · 5 satellites",
+      "launchTime": "2026-07-23T23:33:00Z",
+      "sunAlt": 14.29,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 14.3°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 7A · Tianlian 3-01",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "07-29 19:50 · 傍晚发射 · Long March 7A · Tianlian 3-01",
+      "launchTime": "2026-07-29T11:50:00Z",
+      "sunAlt": -8.57,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -8.6°）· 可拍摄火箭云"
+    },
+    {
+      "code": "Long March 6A · TJSW-27A & B",
+      "site": "太原卫星发射中心",
+      "color": "#1E8449",
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          38.849,
+          111.608
+        ]
+      ],
+      "label": "07-30 09:00 · 白天发射 · Long March 6A · TJSW-27A & B",
+      "launchTime": "2026-07-30T01:00:00Z",
+      "sunAlt": 38.54,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 38.5°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 8A · SatNet LEO Group 23",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "08-04 16:52 · 白天发射 · Long March 8A · SatNet LEO Group 23",
+      "launchTime": "2026-08-04T08:52:00Z",
+      "sunAlt": 31.16,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 31.2°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 7A · ChinaSat 4B",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "08-10 20:02 · 傍晚发射 · Long March 7A · ChinaSat 4B",
+      "launchTime": "2026-08-10T12:02:00Z",
+      "sunAlt": -12.72,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -12.7°）· 可拍摄火箭云"
+    }
+  ]
 }
