@@ -737,3 +737,51 @@ def build_history(records):
         'fetched_at': iso_bj(datetime.now(UTC)),
         'records': tasks,
     }
+
+
+# ---------- Launch Library 2 历史发射生成 ----------
+def build_history_from_ll(launches):
+    """
+    从 Launch Library 2 历史发射（previous）构建历史归档。
+    LL 无落区坐标，path 退化为发射场自身；但能提供火箭/任务名，
+    与 NOTAM 历史（含坐标）互补。
+    """
+    now = datetime.now(UTC)
+    tasks = []
+    for l in launches:
+        loc = _pad_location(l)
+        site_name = _map_site_name(loc.get('name', ''))
+        if not site_name:
+            continue
+        site = _site_by_name(site_name)
+        if not site:
+            continue
+        net = _parse_iso(l.get('net'))
+        if not net or net >= now:
+            continue
+        sun_alt = solar_altitude_deg(site['lat'], site['lng'], net)
+        twilight = is_twilight(sun_alt)
+        rocket_cfg = ((l.get('rocket') or {}).get('configuration')) or {}
+        rocket_name = (rocket_cfg.get('full_name')
+                       or (l.get('name', '').split('|')[0].strip() if l.get('name') else '')
+                       or '火箭')
+        mission = l.get('mission') or {}
+        mission_name = mission.get('name') or ''
+        label_name = ('%s · %s' % (rocket_name, mission_name)) if mission_name else rocket_name
+        bj = fmt_bj(net)
+        tasks.append({
+            'code': label_name,
+            'site': site_name,
+            'color': SITE_COLORS.get(site_name, '#9A938A'),
+            'path': [[site['lat'], site['lng']], [site['lat'], site['lng']]],
+            'label': '%s · %s发射 · %s' % (bj, '傍晚' if twilight else '白天', label_name),
+            'launchTime': _iso_utc_z_no_ms(net),
+            'sunAlt': round(sun_alt * 100) / 100.0,
+            'twilight': twilight,
+            'twilightDesc': twilight_desc(sun_alt),
+        })
+    tasks.sort(key=lambda t: t['launchTime'] or '')
+    return {
+        'fetched_at': iso_bj(datetime.now(UTC)),
+        'records': tasks,
+    }
