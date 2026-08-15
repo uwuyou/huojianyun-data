@@ -1,0 +1,45 @@
+name: Sync NOTAMs
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch NOTAMs and build data
+        run: python scripts/fetch_notams.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Log sync result
+        if: always()
+        run: |
+          echo "=== status.json ==="
+          cat data/status.json 2>/dev/null || echo "(not found)"
+          echo ""
+          echo "=== prediction.json (first 500 chars) ==="
+          head -c 500 data/prediction.json 2>/dev/null || echo "(not found)"
