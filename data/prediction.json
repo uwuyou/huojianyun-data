@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T12:09:21+08:00",
+  "fetched_at": "2026-08-16T13:02:17+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2C · Unknown Payload",
@@ -98,14 +98,14 @@
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
-      "mission_type": "海上发射 · 低倾角轨道",
+      "mission_type": "Unknown",
       "window_start": "2026-08-16T12:03:00+08:00",
       "window_end": "2026-08-16T12:32:00+08:00",
-      "est_t0": "2026-08-16T11:45:00+08:00",
-      "debris_zone": "南海 · 落区 (9.14°N, 119.21°E)",
-      "debris_lat": 9.14,
-      "debris_lng": 119.2067,
-      "direction": "东南 · 出海方向",
+      "est_t0": "2026-08-16T11:52:00+08:00",
+      "debris_zone": "落区详情待官方公布",
+      "debris_lat": 19.6143,
+      "debris_lng": 110.9512,
+      "direction": "待定",
       "twilight_favorable": false,
       "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
       "spots": [
@@ -137,41 +137,17 @@
           110.9512
         ],
         [
-          9.14,
-          119.2067
+          19.6143,
+          110.9512
         ]
       ],
       "label": "2026年08月16日 12:10 · Long March 12",
-      "launchTime": "2026-08-16T04:03:00.000Z",
-      "sunAlt": 81.99,
+      "launchTime": "2026-08-16T04:10:00.000Z",
+      "sunAlt": 80.64,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 82.0°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 80.6°）· 无法拍摄火箭云",
       "status": "go",
-      "debris_polygons": [
-        [
-          [
-            9.26667,
-            118.95
-          ],
-          [
-            9.46667,
-            119.2
-          ],
-          [
-            8.95,
-            119.6
-          ],
-          [
-            8.75,
-            119.33333
-          ],
-          [
-            9.26667,
-            118.95
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+      "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Zhuque-3 · Flight 2",

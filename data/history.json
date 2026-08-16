@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-08-16T12:09:21+08:00",
+  "fetched_at": "2026-08-16T13:02:17+08:00",
   "records": [
-    {
-      "code": "Kinetica 1 · 15 satellites",
-      "site": "酒泉卫星发射中心",
-      "color": "#D68910",
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "11-11 12:03 · 白天发射 · Kinetica 1 · 15 satellites",
-      "launchTime": "2024-11-11T04:03:00Z",
-      "sunAlt": 29.95,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 30.0°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 4B · Haiyang 4-01",
       "site": "太原卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -12.72,
       "twilight": true,
       "twilightDesc": "晨昏阶段（太阳高度角 -12.7°）· 可拍摄火箭云"
+    },
+    {
+      "code": "Long March 12 · Unknown Payload",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "08-16 12:10 · 白天发射 · Long March 12 · Unknown Payload",
+      "launchTime": "2026-08-16T04:10:00Z",
+      "sunAlt": 80.64,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 80.6°）· 无法拍摄火箭云"
     }
   ]
 }
