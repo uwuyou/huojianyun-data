@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T13:55:35+08:00",
+  "fetched_at": "2026-08-16T14:52:03+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2C · Unknown Payload",
@@ -94,11 +94,11 @@
   },
   "upcoming": [
     {
-      "code": "Long March 12 · Unknown Payload",
+      "code": "Long March 12 · SatNet LEO Group 24",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
-      "mission_type": "Unknown",
+      "mission_type": "Communications",
       "window_start": "2026-08-16T12:03:00+08:00",
       "window_end": "2026-08-16T12:32:00+08:00",
       "est_t0": "2026-08-16T11:52:00+08:00",
@@ -147,7 +147,7 @@
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 80.6°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2 + RocketLaunch.Live"
+      "source": "Launch Library 2"
     },
     {
       "code": "Zhuque-3 · Flight 2",

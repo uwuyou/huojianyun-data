@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-16T13:55:35+08:00",
+  "fetched_at": "2026-08-16T14:52:03+08:00",
   "records": [
     {
       "code": "Long March 4B · Haiyang 4-01",
@@ -2982,7 +2982,7 @@
       "twilightDesc": "晨昏阶段（太阳高度角 -12.7°）· 可拍摄火箭云"
     },
     {
-      "code": "Long March 12 · Unknown Payload",
+      "code": "Long March 12 · SatNet LEO Group 24",
       "site": "文昌航天发射场",
       "color": "#C0392B",
       "path": [
@@ -2995,7 +2995,7 @@
           110.9512
         ]
       ],
-      "label": "08-16 12:10 · 白天发射 · Long March 12 · Unknown Payload",
+      "label": "08-16 12:10 · 白天发射 · Long March 12 · SatNet LEO Group 24",
       "launchTime": "2026-08-16T04:10:00Z",
       "sunAlt": 80.64,
       "twilight": false,
