@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-17T11:05:37+08:00",
+  "fetched_at": "2026-08-17T12:20:33+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2C · Unknown Payload",
@@ -93,62 +93,6 @@
     "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
-    {
-      "code": "Long March 12 · SatNet LEO Group 24",
-      "site": "文昌航天发射场",
-      "site_lat": 19.6143,
-      "site_lng": 110.9512,
-      "mission_type": "Communications",
-      "window_start": "2026-08-16T12:03:00+08:00",
-      "window_end": "2026-08-16T12:32:00+08:00",
-      "est_t0": "2026-08-16T11:52:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 19.6143,
-      "debris_lng": 110.9512,
-      "direction": "待定",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "淇水湾沙滩",
-          "type": "免费",
-          "detail": "距发射塔约3km · 视野开阔",
-          "lat": 19.633,
-          "lng": 110.967
-        },
-        {
-          "name": "富荣公寓楼顶",
-          "type": "白名单",
-          "detail": "约3.5km · 正对发射塔架",
-          "lat": 19.6345,
-          "lng": 110.9685
-        },
-        {
-          "name": "铜鼓岭",
-          "type": "远距",
-          "detail": "约8km · 尾迹云+海景组合",
-          "lat": 19.668,
-          "lng": 110.983
-        }
-      ],
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "2026年08月16日 12:10 · Long March 12",
-      "launchTime": "2026-08-16T04:10:00.000Z",
-      "sunAlt": 80.64,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 80.6°）· 无法拍摄火箭云",
-      "status": "go",
-      "source": "Launch Library 2"
-    },
     {
       "code": "Zhuque-3 · Flight 2",
       "site": "酒泉卫星发射中心",
