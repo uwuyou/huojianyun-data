@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-17T14:01:54+08:00",
-  "source": "DAIP NOTAM + RocketLaunch.Live",
+  "fetched_at": "2026-08-17T15:34:07+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 2C · Unknown Payload",
+    "code": "Long March 2C · Satellite for Earth Observation (SEO)",
     "site": "太原卫星发射中心",
     "site_lat": 38.849,
     "site_lng": 111.608,
@@ -46,7 +46,7 @@
         119.55
       ]
     ],
-    "label": "2026年08月17日 11:00 · Long March 2C",
+    "label": "2026年08月17日 11:02 · Long March 2C",
     "launchTime": "2026-06-30T16:00:00.000Z",
     "sunAlt": -32.09,
     "twilight": false,
