@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-17T13:10:17+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-08-17T14:01:54+08:00",
+  "source": "DAIP NOTAM + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2C · Unknown Payload",
     "site": "太原卫星发射中心",
@@ -90,7 +90,7 @@
         ]
       ]
     ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "DAIP NOTAM + Launch Library 2"
   },
   "upcoming": [
     {
@@ -311,7 +311,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Long March 12A · Flight 2",
