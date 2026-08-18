@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-08-19T07:27:56+08:00",
+  "fetched_at": "2026-08-19T07:51:26+08:00",
   "records": [
-    {
-      "code": "Long March 7 · Tianzhou-8",
-      "site": "文昌航天发射场",
-      "color": "#C0392B",
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "11-15 23:13 · 白天发射 · Long March 7 · Tianzhou-8",
-      "launchTime": "2024-11-15T15:13:18Z",
-      "sunAlt": -73.93,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -73.9°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 2C · SuperView Neo 2-03 & 04",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": 57.01,
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 57.0°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Zhuque-3 · Flight 2",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "08-19 07:35 · 白天发射 · Zhuque-3 · Flight 2",
+      "launchTime": "2026-08-18T23:35:00Z",
+      "sunAlt": 10.7,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 10.7°）· 无法拍摄火箭云"
     }
   ]
 }
