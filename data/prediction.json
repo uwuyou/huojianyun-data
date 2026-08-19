@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T12:09:32+08:00",
+  "fetched_at": "2026-08-19T13:04:09+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "A2363/26 + A2363/26",
@@ -147,83 +147,7 @@
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 10.8°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2 + DAIP NOTAM"
-    },
-    {
-      "code": "A3671/26",
-      "site": "酒泉卫星发射中心",
-      "site_lat": 40.967,
-      "site_lng": 100.267,
-      "mission_type": "载人航天/商业发射",
-      "window_start": "2026-08-19T10:50:00+08:00",
-      "window_end": "2026-08-19T12:59:00+08:00",
-      "est_t0": "2026-08-19T10:32:00+08:00",
-      "debris_zone": "落区 (39.66°N, 100.77°E)",
-      "debris_lat": 39.6606,
-      "debris_lng": 100.766,
-      "direction": "南",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "45号观礼点",
-          "type": "官方",
-          "detail": "约2km · 正对发射工位",
-          "lat": 40.955,
-          "lng": 100.285
-        },
-        {
-          "name": "96号观礼点",
-          "type": "官方",
-          "detail": "约2km · 地势略高",
-          "lat": 40.95,
-          "lng": 100.29
-        },
-        {
-          "name": "巴彦宝格德狼心山",
-          "type": "外围",
-          "detail": "远眺发射场全景",
-          "lat": 40.92,
-          "lng": 100.24
-        }
-      ],
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          39.6606,
-          100.766
-        ]
-      ],
-      "label": "2026年08月19日 10:50 · A3671/26",
-      "launchTime": "2026-08-19T02:50:00.000Z",
-      "sunAlt": 55.94,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 55.9°）· 无法拍摄火箭云",
-      "status": "go",
-      "debris_polygons": [
-        [
-          [
-            40.24861,
-            100.7975
-          ],
-          [
-            39.85444,
-            100.38194
-          ],
-          [
-            39.45194,
-            100.45194
-          ],
-          [
-            39.08722,
-            101.43278
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM"
+      "source": "Launch Library 2"
     },
     {
       "code": "A3670/26",
