@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-19T07:51:26+08:00",
+  "fetched_at": "2026-08-19T09:39:46+08:00",
   "records": [
     {
       "code": "Long March 2C · SuperView Neo 2-03 & 04",
@@ -2982,7 +2982,7 @@
       "twilightDesc": "白天（太阳高度角 57.0°）· 无法拍摄火箭云"
     },
     {
-      "code": "Zhuque-3 · Flight 2",
+      "code": "Zhuque-3 · Honghu-03",
       "site": "酒泉卫星发射中心",
       "color": "#D68910",
       "path": [
@@ -2995,11 +2995,11 @@
           100.267
         ]
       ],
-      "label": "08-19 07:35 · 白天发射 · Zhuque-3 · Flight 2",
-      "launchTime": "2026-08-18T23:35:00Z",
-      "sunAlt": 10.7,
+      "label": "08-19 07:35 · 白天发射 · Zhuque-3 · Honghu-03",
+      "launchTime": "2026-08-18T23:35:20Z",
+      "sunAlt": 10.76,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 10.7°）· 无法拍摄火箭云"
+      "twilightDesc": "白天（太阳高度角 10.8°）· 无法拍摄火箭云"
     }
   ]
 }
