@@ -1,8 +1,8 @@
 {
   "ok": true,
   "error": null,
-  "last_attempt": "2026-08-21T07:31:14+08:00",
-  "last_success": "2026-08-21T07:31:14+08:00",
+  "last_attempt": "2026-08-21T09:43:00+08:00",
+  "last_success": "2026-08-21T09:43:00+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "record_count": 10,
   "upcoming_count": 5,
