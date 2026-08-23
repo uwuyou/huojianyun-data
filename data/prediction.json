@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-24T00:32:35+08:00",
+  "fetched_at": "2026-08-24T01:25:22+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 6C · Unknown Payload",
@@ -94,7 +94,7 @@
   },
   "upcoming": [
     {
-      "code": "Long March 5 · Chang'e 7",
+      "code": "B4292/26 + B4282/26 + B4284/26",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -149,7 +149,7 @@
           125.07
         ]
       ],
-      "label": "2026年08月25日 08:30 · Long March 5 · Chang'e 7",
+      "label": "2026年08月25日 07:54 · B4292/26 + B4282/26 + B4284/26",
       "launchTime": "2026-08-24T23:54:00.000Z",
       "sunAlt": 34.5,
       "twilight": false,
@@ -223,7 +223,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + RocketLaunch.Live"
+      "source": "DAIP NOTAM"
     },
     {
       "code": "A3804/26 + A3803/26",
