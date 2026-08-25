@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-08-25T11:04:43+08:00",
+  "fetched_at": "2026-08-25T12:10:12+08:00",
   "records": [
-    {
-      "code": "Long March 2C · SuperView Neo 2-03 & 04",
-      "site": "酒泉卫星发射中心",
-      "color": "#D68910",
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "11-25 07:39 · 傍晚发射 · Long March 2C · SuperView Neo 2-03 & 04",
-      "launchTime": "2024-11-24T23:39:00Z",
-      "sunAlt": -7.53,
-      "twilight": true,
-      "twilightDesc": "晨昏阶段（太阳高度角 -7.5°）· 可拍摄火箭云"
-    },
     {
       "code": "Zhuque-2E · Guangchuan-01 & 02",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": 10.76,
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 10.8°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 6C · 7 satellites",
+      "site": "太原卫星发射中心",
+      "color": "#1E8449",
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          38.849,
+          111.608
+        ]
+      ],
+      "label": "08-25 11:21 · 白天发射 · Long March 6C · 7 satellites",
+      "launchTime": "2026-08-25T03:21:00Z",
+      "sunAlt": 57.45,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 57.4°）· 无法拍摄火箭云"
     }
   ]
 }
