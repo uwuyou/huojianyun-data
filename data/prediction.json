@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-08-26T11:11:12+08:00",
+  "fetched_at": "2026-08-26T12:11:35+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "Long March 6C · 7 satellites",
+    "code": "A2363/26 + A2363/26",
     "site": "太原卫星发射中心",
     "site_lat": 38.849,
     "site_lng": 111.608,
@@ -46,7 +46,7 @@
         119.55
       ]
     ],
-    "label": "2026年08月25日 11:21 · Long March 6C",
+    "label": "2026年07月01日 00:00 · A2363/26 + A2363/26",
     "launchTime": "2026-06-30T16:00:00.000Z",
     "sunAlt": -32.09,
     "twilight": false,
@@ -90,7 +90,7 @@
         ]
       ]
     ],
-    "source": "DAIP NOTAM + Launch Library 2"
+    "source": "DAIP NOTAM"
   },
   "upcoming": [
     {
