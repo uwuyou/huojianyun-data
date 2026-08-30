@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-08-30T21:56:44+08:00",
-  "source": "DAIP NOTAM + Launch Library 2",
+  "fetched_at": "2026-08-31T02:01:35+08:00",
+  "source": "DAIP NOTAM",
   "next_launch": {
     "code": "A2363/26 + A2363/26",
     "site": "太原卫星发射中心",
@@ -94,7 +94,7 @@
   },
   "upcoming": [
     {
-      "code": "Pallas-1 · Demo Flight",
+      "code": "A3979/26 + A3978/26 + A3977/26",
       "site": "酒泉卫星发射中心",
       "site_lat": 40.967,
       "site_lng": 100.267,
@@ -149,7 +149,7 @@
           98.4958
         ]
       ],
-      "label": "2026年09月01日 10:00 · Pallas-1",
+      "label": "2026年09月01日 09:52 · A3979/26 + A3978/26 + A3977/26",
       "launchTime": "2026-09-01T01:52:00.000Z",
       "sunAlt": 45.93,
       "twilight": false,
@@ -211,10 +211,10 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM"
     },
     {
-      "code": "Long March 8A · Unknown Payload",
+      "code": "B4420/26 + B4419/26",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -265,7 +265,7 @@
           119.2595
         ]
       ],
-      "label": "2026年09月12日 00:00 · Long March 8A",
+      "label": "2026年09月12日 00:00 · B4420/26 + B4419/26",
       "launchTime": "2026-09-11T16:00:00.000Z",
       "sunAlt": 63.57,
       "twilight": false,
@@ -325,119 +325,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
-    },
-    {
-      "code": "Long March 12A · Flight 2",
-      "site": "酒泉卫星发射中心",
-      "site_lat": 40.967,
-      "site_lng": 100.267,
-      "mission_type": "Test Flight",
-      "window_start": "2026-09-30T08:00:00+08:00",
-      "window_end": "2026-09-30T08:00:00+08:00",
-      "est_t0": "2026-09-30T07:42:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 40.967,
-      "debris_lng": 100.267,
-      "direction": "待定",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "45号观礼点",
-          "type": "官方",
-          "detail": "约2km · 正对发射工位",
-          "lat": 40.955,
-          "lng": 100.285
-        },
-        {
-          "name": "96号观礼点",
-          "type": "官方",
-          "detail": "约2km · 地势略高",
-          "lat": 40.95,
-          "lng": 100.29
-        },
-        {
-          "name": "巴彦宝格德狼心山",
-          "type": "外围",
-          "detail": "远眺发射场全景",
-          "lat": 40.92,
-          "lng": 100.24
-        }
-      ],
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "2026年09月30日 08:00 · Long March 12A",
-      "launchTime": "2026-09-30T00:00:00.000Z",
-      "sunAlt": 7.8,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 7.8°）· 无法拍摄火箭云",
-      "status": "go",
-      "source": "Launch Library 2"
-    },
-    {
-      "code": "Long March 2F/G · Shenzhou 24",
-      "site": "酒泉卫星发射中心",
-      "site_lat": 40.967,
-      "site_lng": 100.267,
-      "mission_type": "Human Exploration",
-      "window_start": "2026-12-31T08:00:00+08:00",
-      "window_end": "2026-12-31T08:00:00+08:00",
-      "est_t0": "2026-12-31T07:42:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 40.967,
-      "debris_lng": 100.267,
-      "direction": "待定",
-      "twilight_favorable": true,
-      "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
-      "spots": [
-        {
-          "name": "45号观礼点",
-          "type": "官方",
-          "detail": "约2km · 正对发射工位",
-          "lat": 40.955,
-          "lng": 100.285
-        },
-        {
-          "name": "96号观礼点",
-          "type": "官方",
-          "detail": "约2km · 地势略高",
-          "lat": 40.95,
-          "lng": 100.29
-        },
-        {
-          "name": "巴彦宝格德狼心山",
-          "type": "外围",
-          "detail": "远眺发射场全景",
-          "lat": 40.92,
-          "lng": 100.24
-        }
-      ],
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "2026年12月31日 08:00 · Long March 2F/G",
-      "launchTime": "2026-12-31T00:00:00.000Z",
-      "sunAlt": -8.2,
-      "twilight": true,
-      "twilightDesc": "晨昏阶段（太阳高度角 -8.2°）· 可拍摄火箭云",
-      "status": "go",
-      "source": "Launch Library 2"
+      "source": "DAIP NOTAM"
     }
   ]
 }
