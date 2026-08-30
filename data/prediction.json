@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T16:09:47+08:00",
+  "fetched_at": "2026-08-30T21:56:44+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "A2363/26 + A2363/26",
@@ -214,7 +214,7 @@
       "source": "DAIP NOTAM + Launch Library 2"
     },
     {
-      "code": "B4420/26 + B4419/26",
+      "code": "Long March 8A · Unknown Payload",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -265,7 +265,7 @@
           119.2595
         ]
       ],
-      "label": "2026年09月12日 00:00 · B4420/26 + B4419/26",
+      "label": "2026年09月12日 00:00 · Long March 8A",
       "launchTime": "2026-09-11T16:00:00.000Z",
       "sunAlt": 63.57,
       "twilight": false,
@@ -325,7 +325,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Long March 12A · Flight 2",
