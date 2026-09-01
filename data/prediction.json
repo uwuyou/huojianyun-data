@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-09-01T09:59:38+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-09-01T15:43:28+08:00",
+  "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "Pallas-1 · Demo Flight",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
-    "mission_type": "载人航天/商业发射",
+    "mission_type": "Test Flight",
     "window_start": "2026-09-01T09:52:00+08:00",
-    "window_end": "2026-09-01T12:18:00+08:00",
-    "est_t0": "2026-09-01T09:34:00+08:00",
-    "debris_zone": "落区 (34.83°N, 98.50°E)",
-    "debris_lat": 34.8333,
-    "debris_lng": 98.4958,
-    "direction": "南",
+    "window_end": "2026-09-01T12:09:00+08:00",
+    "est_t0": "2026-09-01T09:42:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 40.967,
+    "debris_lng": 100.267,
+    "direction": "待定",
     "twilight_favorable": false,
     "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
@@ -45,81 +45,17 @@
         100.267
       ],
       [
-        36.2667,
-        98.8833
-      ],
-      [
-        36.0833,
-        98.8375
-      ],
-      [
-        34.8333,
-        98.4958
+        40.967,
+        100.267
       ]
     ],
     "label": "2026年09月01日 10:00 · Pallas-1",
-    "launchTime": "2026-09-01T01:52:00.000Z",
-    "sunAlt": 45.93,
+    "launchTime": "2026-09-01T02:00:00.000Z",
+    "sunAlt": 35.31,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 45.9°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 35.3°）· 无法拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          35.13333,
-          98.36667
-        ],
-        [
-          35.08333,
-          98.73333
-        ],
-        [
-          34.53333,
-          98.61667
-        ],
-        [
-          34.58333,
-          98.26667
-        ]
-      ],
-      [
-        [
-          36.51667,
-          98.76667
-        ],
-        [
-          36.46667,
-          99.11667
-        ],
-        [
-          36.01667,
-          99.0
-        ],
-        [
-          36.06667,
-          98.65
-        ]
-      ],
-      [
-        [
-          36.33333,
-          98.71667
-        ],
-        [
-          36.28333,
-          99.06667
-        ],
-        [
-          35.83333,
-          98.95
-        ],
-        [
-          35.88333,
-          98.61667
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
