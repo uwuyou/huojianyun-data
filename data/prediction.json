@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-06T06:11:21+08:00",
+  "fetched_at": "2026-09-06T08:09:36+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2D/YZ-3 · Unknown Payload",
@@ -205,7 +205,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Long March 12A · Flight 2",
