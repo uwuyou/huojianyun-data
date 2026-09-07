@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-09-07T21:25:23+08:00",
+  "fetched_at": "2026-09-08T02:21:14+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 2D/YZ-3 · Unknown Payload",
+    "code": "Unconfirmed Vehicle",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
-    "mission_type": "Unknown",
-    "window_start": "2026-09-09T16:52:00+08:00",
-    "window_end": "2026-09-09T17:13:00+08:00",
+    "mission_type": "待定",
+    "window_start": "2026-09-09T17:00:00+08:00",
+    "window_end": "2026-09-09T17:00:00+08:00",
     "est_t0": "2026-09-09T16:42:00+08:00",
     "debris_zone": "落区详情待官方公布",
     "debris_lat": 40.967,
@@ -49,17 +49,17 @@
         100.267
       ]
     ],
-    "label": "2026年09月09日 17:00 · Long March 2D/YZ-3",
+    "label": "2026年09月09日 17:00 · Unconfirmed Vehicle",
     "launchTime": "2026-09-09T09:00:00.000Z",
     "sunAlt": 28.97,
     "twilight": false,
     "twilightDesc": "白天（太阳高度角 29.0°）· 无法拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "RocketLaunch.Live"
   },
   "upcoming": [
     {
-      "code": "A4297/26 + A4298/26",
+      "code": "Long March 2D/YZ-3 · Unknown Payload",
       "site": "酒泉卫星发射中心",
       "site_lat": 38.849,
       "site_lng": 111.608,
@@ -103,7 +103,7 @@
           107.3333
         ]
       ],
-      "label": "2026年09月10日 16:52 · A4297/26 + A4298/26",
+      "label": "2026年09月10日 17:00 · Long March 2D/YZ-3",
       "launchTime": "2026-09-10T08:52:00.000Z",
       "sunAlt": 19.95,
       "twilight": false,
@@ -147,7 +147,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Long March 8A · Unknown Payload",
