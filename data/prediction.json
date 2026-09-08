@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-08T22:43:35+08:00",
+  "fetched_at": "2026-09-09T02:26:22+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2D/YZ-3 · Unknown Payload",
@@ -208,7 +208,7 @@
       "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
-      "code": "B4694/26",
+      "code": "Long March 12 · Unknown Payload",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -255,7 +255,7 @@
           119.2067
         ]
       ],
-      "label": "2026年09月17日 08:00 · B4694/26",
+      "label": "2026年09月17日 08:00 · Long March 12",
       "launchTime": "2026-09-17T00:00:00.000Z",
       "sunAlt": -47.21,
       "twilight": false,
@@ -285,7 +285,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Long March 12A · Flight 2",
