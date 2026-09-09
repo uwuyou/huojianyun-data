@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-09T17:06:30+08:00",
+  "fetched_at": "2026-09-09T21:50:57+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2D/YZ-3 · Unknown Payload",
@@ -139,18 +139,98 @@
   },
   "upcoming": [
     {
-      "code": "Long March 8A · Unknown Payload",
+      "code": "B4714/26",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
       "mission_type": "海上发射 · 低倾角轨道",
-      "window_start": "2026-09-12T00:00:00+08:00",
-      "window_end": "2026-09-15T04:00:00+08:00",
-      "est_t0": "2026-09-11T23:42:00+08:00",
-      "debris_zone": "南海 · 落区 (8.34°N, 119.26°E)",
-      "debris_lat": 8.3381,
-      "debris_lng": 119.2595,
-      "direction": "东南 · 出海方向",
+      "window_start": "2026-09-16T05:52:00+08:00",
+      "window_end": "2026-09-16T06:24:00+08:00",
+      "est_t0": "2026-09-16T05:34:00+08:00",
+      "debris_zone": "南海 · 落区 (19.59°N, 123.32°E)",
+      "debris_lat": 19.5867,
+      "debris_lng": 123.32,
+      "direction": "东 · 出海方向",
+      "twilight_favorable": true,
+      "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
+      "spots": [
+        {
+          "name": "淇水湾沙滩",
+          "type": "免费",
+          "detail": "距发射塔约3km · 视野开阔",
+          "lat": 19.633,
+          "lng": 110.967
+        },
+        {
+          "name": "富荣公寓楼顶",
+          "type": "白名单",
+          "detail": "约3.5km · 正对发射塔架",
+          "lat": 19.6345,
+          "lng": 110.9685
+        },
+        {
+          "name": "铜鼓岭",
+          "type": "远距",
+          "detail": "约8km · 尾迹云+海景组合",
+          "lat": 19.668,
+          "lng": 110.983
+        }
+      ],
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.5867,
+          123.32
+        ]
+      ],
+      "label": "2026年09月16日 05:52 · B4714/26",
+      "launchTime": "2026-09-15T21:52:00.000Z",
+      "sunAlt": -4.59,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -4.6°）· 可拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            20.05,
+            123.25
+          ],
+          [
+            20.03333,
+            123.46667
+          ],
+          [
+            18.9,
+            123.41667
+          ],
+          [
+            18.9,
+            123.21667
+          ],
+          [
+            20.05,
+            123.25
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM"
+    },
+    {
+      "code": "Unconfirmed Vehicle",
+      "site": "文昌航天发射场",
+      "site_lat": 19.6143,
+      "site_lng": 110.9512,
+      "mission_type": "海上发射 · 低倾角轨道",
+      "window_start": "2026-09-17T08:00:00+08:00",
+      "window_end": "2026-09-17T08:00:00+08:00",
+      "est_t0": "2026-09-17T07:42:00+08:00",
+      "debris_zone": "落区详情待官方公布",
+      "debris_lat": 19.6143,
+      "debris_lng": 110.9512,
+      "direction": "待定",
       "twilight_favorable": false,
       "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
       "spots": [
@@ -182,91 +262,33 @@
           110.9512
         ],
         [
-          12.81,
-          116.0567
-        ],
-        [
-          8.3381,
-          119.2595
+          19.6143,
+          110.9512
         ]
       ],
-      "label": "2026年09月12日 00:00 · Long March 8A",
-      "launchTime": "2026-09-11T16:00:00.000Z",
-      "sunAlt": 63.57,
+      "label": "2026年09月17日 08:00 · Unconfirmed Vehicle",
+      "launchTime": "2026-09-17T00:00:00.000Z",
+      "sunAlt": 21.7,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 63.6°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 21.7°）· 无法拍摄火箭云",
       "status": "go",
-      "debris_polygons": [
-        [
-          [
-            8.58333,
-            118.8
-          ],
-          [
-            8.9,
-            119.25
-          ],
-          [
-            8.71667,
-            119.48333
-          ],
-          [
-            7.83333,
-            120.1
-          ],
-          [
-            7.43333,
-            119.5
-          ],
-          [
-            8.31667,
-            118.88333
-          ],
-          [
-            8.58333,
-            118.8
-          ]
-        ],
-        [
-          [
-            13.03333,
-            115.61667
-          ],
-          [
-            13.35,
-            116.06667
-          ],
-          [
-            12.46667,
-            116.71667
-          ],
-          [
-            12.16667,
-            116.26667
-          ],
-          [
-            13.03333,
-            115.61667
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+      "source": "RocketLaunch.Live + DAIP NOTAM + Launch Library 2"
     },
     {
-      "code": "Long March 12 · Unknown Payload",
+      "code": "Long March 8A · Unknown Payload",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
-      "mission_type": "海上发射 · 低倾角轨道",
-      "window_start": "2026-09-17T08:00:00+08:00",
-      "window_end": "2026-09-20T12:00:00+08:00",
-      "est_t0": "2026-09-17T07:42:00+08:00",
-      "debris_zone": "南海 · 落区 (9.14°N, 119.21°E)",
-      "debris_lat": 9.1433,
-      "debris_lng": 119.2067,
-      "direction": "东南 · 出海方向",
+      "mission_type": "Unknown",
+      "window_start": "2026-09-30T08:00:00+08:00",
+      "window_end": "2026-09-30T08:00:00+08:00",
+      "est_t0": "2026-09-30T07:42:00+08:00",
+      "debris_zone": "落区详情待官方公布",
+      "debris_lat": 19.6143,
+      "debris_lng": 110.9512,
+      "direction": "待定",
       "twilight_favorable": false,
-      "note": "深夜发射，高空进入地影，无法拍摄",
+      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
       "spots": [
         {
           "name": "淇水湾沙滩",
@@ -296,41 +318,17 @@
           110.9512
         ],
         [
-          9.1433,
-          119.2067
+          19.6143,
+          110.9512
         ]
       ],
-      "label": "2026年09月17日 08:00 · Long March 12",
-      "launchTime": "2026-09-17T00:00:00.000Z",
-      "sunAlt": -47.21,
+      "label": "2026年09月30日 08:00 · Long March 8A",
+      "launchTime": "2026-09-30T00:00:00.000Z",
+      "sunAlt": 20.94,
       "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -47.2°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 20.9°）· 无法拍摄火箭云",
       "status": "go",
-      "debris_polygons": [
-        [
-          [
-            9.26667,
-            118.95
-          ],
-          [
-            9.46667,
-            119.21667
-          ],
-          [
-            8.95,
-            119.58333
-          ],
-          [
-            8.76667,
-            119.33333
-          ],
-          [
-            9.26667,
-            118.95
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "Launch Library 2"
     },
     {
       "code": "Long March 12A · Flight 2",
