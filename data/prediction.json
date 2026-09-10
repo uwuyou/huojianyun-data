@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-10T09:21:31+08:00",
+  "fetched_at": "2026-09-10T14:32:05+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2D/YZ-3 · Unknown Payload",
@@ -138,6 +138,104 @@
     "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
+    {
+      "code": "A4404/26 + A4403/26",
+      "site": "酒泉卫星发射中心",
+      "site_lat": 28.2463,
+      "site_lng": 102.027,
+      "mission_type": "地球同步轨道卫星",
+      "window_start": "2026-09-15T14:18:00+08:00",
+      "window_end": "2026-09-15T14:48:00+08:00",
+      "est_t0": "2026-09-15T14:00:00+08:00",
+      "debris_zone": "落区 (35.12°N, 100.05°E)",
+      "debris_lat": 35.1167,
+      "debris_lng": 100.0542,
+      "direction": "北",
+      "twilight_favorable": false,
+      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
+      "spots": [
+        {
+          "name": "青杠坝山坡观景台",
+          "type": "观景台",
+          "detail": "距发射场约3km · 远眺发射场",
+          "lat": 28.235,
+          "lng": 102.045
+        },
+        {
+          "name": "奔月广场",
+          "type": "展示区",
+          "detail": "航天主题展示区",
+          "lat": 28.25,
+          "lng": 102.05
+        },
+        {
+          "name": "南山坡机位",
+          "type": "机位",
+          "detail": "历史最佳机位 · 俯拍发射场",
+          "lat": 28.238,
+          "lng": 102.02
+        }
+      ],
+      "path": [
+        [
+          28.2463,
+          102.027
+        ],
+        [
+          29.4042,
+          99.7042
+        ],
+        [
+          35.1167,
+          100.0542
+        ]
+      ],
+      "label": "2026年09月15日 14:18 · A4404/26 + A4403/26",
+      "launchTime": "2026-09-15T06:18:00.000Z",
+      "sunAlt": 57.72,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 57.7°）· 无法拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            35.3,
+            99.93333
+          ],
+          [
+            35.3,
+            100.18333
+          ],
+          [
+            34.93333,
+            100.16667
+          ],
+          [
+            34.93333,
+            99.93333
+          ]
+        ],
+        [
+          [
+            29.73333,
+            99.5
+          ],
+          [
+            29.71667,
+            99.93333
+          ],
+          [
+            29.08333,
+            99.9
+          ],
+          [
+            29.08333,
+            99.48333
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM"
+    },
     {
       "code": "B4714/26",
       "site": "文昌航天发射场",
