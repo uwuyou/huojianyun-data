@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-09-10T14:32:05+08:00",
+  "fetched_at": "2026-09-10T20:09:21+08:00",
   "records": [
-    {
-      "code": "Long March 12 · Maiden Flight",
-      "site": "文昌航天发射场",
-      "color": "#C0392B",
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "11-30 22:25 · 白天发射 · Long March 12 · Maiden Flight",
-      "launchTime": "2024-11-30T14:25:00Z",
-      "sunAlt": -61.82,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -61.8°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 3B/E · TJSW-13",
       "site": "西昌卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": 35.31,
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 35.3°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 4B · Yaogan 53-01 to 03/56-01 to 03",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "09-10 17:00 · 白天发射 · Long March 4B · Yaogan 53-01 to 03/56-01 to 03",
+      "launchTime": "2026-09-10T09:00:00Z",
+      "sunAlt": 28.64,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 28.6°）· 无法拍摄火箭云"
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-09-10T14:32:05+08:00",
+  "fetched_at": "2026-09-10T20:09:21+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 2D/YZ-3 · Unknown Payload",
+    "code": "Long March 4B · Yaogan 53-01 to 03/56-01 to 03",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
-    "mission_type": "载人航天/商业发射",
-    "window_start": "2026-09-10T14:07:00+08:00",
-    "window_end": "2026-09-10T15:28:00+08:00",
-    "est_t0": "2026-09-10T13:49:00+08:00",
-    "debris_zone": "落区 (39.74°N, 105.45°E)",
-    "debris_lat": 39.7375,
-    "debris_lng": 105.4485,
-    "direction": "东",
+    "mission_type": "Government/Top Secret",
+    "window_start": "2026-09-10T16:52:00+08:00",
+    "window_end": "2026-09-10T17:13:00+08:00",
+    "est_t0": "2026-09-10T16:42:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 40.967,
+    "debris_lng": 100.267,
+    "direction": "待定",
     "twilight_favorable": false,
     "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
@@ -45,101 +45,21 @@
         100.267
       ],
       [
-        40.3001,
-        102.4162
-      ],
-      [
-        41.2319,
-        97.2972
-      ],
-      [
-        39.7375,
-        105.4485
+        40.967,
+        100.267
       ]
     ],
-    "label": "2026年09月10日 17:00 · Long March 2D/YZ-3",
-    "launchTime": "2026-09-10T06:07:00.000Z",
-    "sunAlt": 48.73,
+    "label": "2026年09月10日 17:00 · Long March 4B",
+    "launchTime": "2026-09-10T09:00:00.000Z",
+    "sunAlt": 28.64,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 48.7°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 28.6°）· 无法拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          41.44167,
-          98.40722
-        ],
-        [
-          41.73278,
-          96.22611
-        ],
-        [
-          41.0175,
-          96.33389
-        ],
-        [
-          40.73556,
-          98.22167
-        ]
-      ],
-      [
-        [
-          40.35472,
-          104.20778
-        ],
-        [
-          40.60528,
-          102.81167
-        ],
-        [
-          40.98667,
-          100.57944
-        ],
-        [
-          40.29472,
-          100.31639
-        ],
-        [
-          39.90444,
-          102.59444
-        ],
-        [
-          39.65472,
-          103.9875
-        ]
-      ],
-      [
-        [
-          40.04917,
-          105.73639
-        ],
-        [
-          40.09056,
-          105.54917
-        ],
-        [
-          40.11556,
-          105.42611
-        ],
-        [
-          39.41861,
-          105.18972
-        ],
-        [
-          39.39389,
-          105.3125
-        ],
-        [
-          39.35694,
-          105.47722
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
-      "code": "A4404/26 + A4403/26",
+      "code": "Zhuque-2E Block 2 · Unknown Payload",
       "site": "酒泉卫星发射中心",
       "site_lat": 28.2463,
       "site_lng": 102.027,
@@ -190,7 +110,7 @@
           100.0542
         ]
       ],
-      "label": "2026年09月15日 14:18 · A4404/26 + A4403/26",
+      "label": "2026年09月15日 14:25 · Zhuque-2E Block 2",
       "launchTime": "2026-09-15T06:18:00.000Z",
       "sunAlt": 57.72,
       "twilight": false,
@@ -234,7 +154,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "B4714/26",
