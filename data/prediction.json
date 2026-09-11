@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-11T17:03:21+08:00",
+  "fetched_at": "2026-09-11T21:44:05+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Zhuque-2E Block 2 · Unknown Payload",
@@ -181,18 +181,18 @@
       "source": "DAIP NOTAM"
     },
     {
-      "code": "Unconfirmed Vehicle",
+      "code": "Long March 12 · Unknown Payload",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
       "mission_type": "海上发射 · 低倾角轨道",
-      "window_start": "2026-09-17T08:00:00+08:00",
-      "window_end": "2026-09-17T08:00:00+08:00",
-      "est_t0": "2026-09-17T07:42:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 19.6143,
-      "debris_lng": 110.9512,
-      "direction": "待定",
+      "window_start": "2026-09-17T08:25:00+08:00",
+      "window_end": "2026-09-17T08:54:00+08:00",
+      "est_t0": "2026-09-17T08:07:00+08:00",
+      "debris_zone": "南海 · 落区 (9.14°N, 119.21°E)",
+      "debris_lat": 9.14,
+      "debris_lng": 119.21,
+      "direction": "东南 · 出海方向",
       "twilight_favorable": false,
       "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
       "spots": [
@@ -224,17 +224,41 @@
           110.9512
         ],
         [
-          19.6143,
-          110.9512
+          9.14,
+          119.21
         ]
       ],
-      "label": "2026年09月17日 08:00 · Unconfirmed Vehicle",
-      "launchTime": "2026-09-17T00:00:00.000Z",
-      "sunAlt": 21.7,
+      "label": "2026年09月17日 08:30 · Long March 12",
+      "launchTime": "2026-09-17T00:25:00.000Z",
+      "sunAlt": 30.93,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 21.7°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 30.9°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "RocketLaunch.Live + DAIP NOTAM + Launch Library 2"
+      "debris_polygons": [
+        [
+          [
+            9.26667,
+            118.95
+          ],
+          [
+            9.46667,
+            119.21667
+          ],
+          [
+            8.95,
+            119.6
+          ],
+          [
+            8.75,
+            119.33333
+          ],
+          [
+            9.26667,
+            118.95
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Kuaizhou 11 · Unknown Payload",
