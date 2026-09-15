@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-15T14:34:44+08:00",
+  "fetched_at": "2026-09-15T20:34:31+08:00",
   "records": [
     {
       "code": "Kuaizhou 1A · Haishao-1",
@@ -2982,7 +2982,7 @@
       "twilightDesc": "白天（太阳高度角 28.6°）· 无法拍摄火箭云"
     },
     {
-      "code": "Zhuque-2E Block 2 · Unknown Payload",
+      "code": "Zhuque-2E Block 2 · SpaceSail Polar Group #15",
       "site": "酒泉卫星发射中心",
       "color": "#D68910",
       "path": [
@@ -2995,11 +2995,11 @@
           100.267
         ]
       ],
-      "label": "09-15 14:25 · 白天发射 · Zhuque-2E Block 2 · Unknown Payload",
-      "launchTime": "2026-09-15T06:25:00Z",
-      "sunAlt": 49.03,
+      "label": "09-15 14:26 · 白天发射 · Zhuque-2E Block 2 · SpaceSail Polar Group #15",
+      "launchTime": "2026-09-15T06:26:00Z",
+      "sunAlt": 48.94,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 49.0°）· 无法拍摄火箭云"
+      "twilightDesc": "白天（太阳高度角 48.9°）· 无法拍摄火箭云"
     }
   ]
 }
