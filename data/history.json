@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-09-15T09:18:18+08:00",
+  "fetched_at": "2026-09-15T14:34:44+08:00",
   "records": [
-    {
-      "code": "Long March 3B/E · TJSW-13",
-      "site": "西昌卫星发射中心",
-      "color": "#1F618D",
-      "path": [
-        [
-          28.2463,
-          102.027
-        ],
-        [
-          28.2463,
-          102.027
-        ]
-      ],
-      "label": "12-03 13:56 · 白天发射 · Long March 3B/E · TJSW-13",
-      "launchTime": "2024-12-03T05:56:00Z",
-      "sunAlt": 37.99,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 38.0°）· 无法拍摄火箭云"
-    },
     {
       "code": "Kuaizhou 1A · Haishao-1",
       "site": "西昌卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": 28.64,
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 28.6°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Zhuque-2E Block 2 · Unknown Payload",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "09-15 14:25 · 白天发射 · Zhuque-2E Block 2 · Unknown Payload",
+      "launchTime": "2026-09-15T06:25:00Z",
+      "sunAlt": 49.03,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 49.0°）· 无法拍摄火箭云"
     }
   ]
 }
