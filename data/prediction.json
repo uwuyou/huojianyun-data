@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-16T22:19:34+08:00",
+  "fetched_at": "2026-09-17T02:21:33+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Unconfirmed Vehicle",
@@ -275,7 +275,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Kinetica 1 · Unknown Payload",
