@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-18T18:57:48+08:00",
+  "fetched_at": "2026-09-18T22:54:28+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2D · Unknown Payload",
@@ -258,7 +258,7 @@
       "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
-      "code": "B4932/26 + B4933/26",
+      "code": "Long March 8A · Unknown Payload",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -309,7 +309,7 @@
           119.1571
         ]
       ],
-      "label": "2026年09月23日 21:24 · B4932/26 + B4933/26",
+      "label": "2026年09月23日 21:30 · Long March 8A",
       "launchTime": "2026-09-23T13:24:00.000Z",
       "sunAlt": -44.67,
       "twilight": false,
@@ -369,10 +369,10 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
-      "code": "A4754/26 + A4755/26",
+      "code": "Long March 6A · Unknown Payload",
       "site": "太原卫星发射中心",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
@@ -423,7 +423,7 @@
           112.1583
         ]
       ],
-      "label": "2026年09月24日 16:38 · A4754/26 + A4755/26",
+      "label": "2026年09月24日 16:45 · Long March 6A",
       "launchTime": "2026-09-24T08:38:00.000Z",
       "sunAlt": 21.75,
       "twilight": false,
@@ -467,63 +467,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
-    },
-    {
-      "code": "Long March 8A · Unknown Payload",
-      "site": "文昌航天发射场",
-      "site_lat": 19.6143,
-      "site_lng": 110.9512,
-      "mission_type": "Unknown",
-      "window_start": "2026-09-30T08:00:00+08:00",
-      "window_end": "2026-09-30T08:00:00+08:00",
-      "est_t0": "2026-09-30T07:42:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 19.6143,
-      "debris_lng": 110.9512,
-      "direction": "待定",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "淇水湾沙滩",
-          "type": "免费",
-          "detail": "距发射塔约3km · 视野开阔",
-          "lat": 19.633,
-          "lng": 110.967
-        },
-        {
-          "name": "富荣公寓楼顶",
-          "type": "白名单",
-          "detail": "约3.5km · 正对发射塔架",
-          "lat": 19.6345,
-          "lng": 110.9685
-        },
-        {
-          "name": "铜鼓岭",
-          "type": "远距",
-          "detail": "约8km · 尾迹云+海景组合",
-          "lat": 19.668,
-          "lng": 110.983
-        }
-      ],
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "2026年09月30日 08:00 · Long March 8A",
-      "launchTime": "2026-09-30T00:00:00.000Z",
-      "sunAlt": 20.94,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 20.9°）· 无法拍摄火箭云",
-      "status": "go",
-      "source": "Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Long March 12A · Flight 2",
