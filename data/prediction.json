@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-19T21:01:25+08:00",
+  "fetched_at": "2026-09-20T00:42:38+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2D · PIESAT-2 13-16",
@@ -48,7 +48,7 @@
     "twilight": true,
     "twilightDesc": "晨昏阶段（太阳高度角 -3.3°）· 可拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
