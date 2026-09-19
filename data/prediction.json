@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-09-19T16:55:33+08:00",
+  "fetched_at": "2026-09-19T21:01:25+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 2D · Unknown Payload",
+    "code": "Long March 2D · PIESAT-2 13-16",
     "site": "太原卫星发射中心",
     "site_lat": 38.849,
     "site_lng": 111.608,
-    "mission_type": "太阳同步轨道卫星",
+    "mission_type": "Earth Science",
     "window_start": "2026-09-19T18:43:00+08:00",
-    "window_end": "2026-09-19T19:11:00+08:00",
-    "est_t0": "2026-09-19T18:25:00+08:00",
-    "debris_zone": "落区 (30.25°N, 110.08°E)",
-    "debris_lat": 30.2458,
-    "debris_lng": 110.0833,
-    "direction": "南",
+    "window_end": "2026-09-19T19:06:00+08:00",
+    "est_t0": "2026-09-19T18:32:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 38.849,
+    "debris_lng": 111.608,
+    "direction": "待定",
     "twilight_favorable": true,
     "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
     "spots": [
@@ -38,81 +38,17 @@
         111.608
       ],
       [
-        33.3625,
-        110.5958
-      ],
-      [
-        33.3625,
-        110.5958
-      ],
-      [
-        30.2458,
-        110.0833
+        38.849,
+        111.608
       ]
     ],
     "label": "2026年09月19日 18:50 · Long March 2D",
-    "launchTime": "2026-09-19T10:43:00.000Z",
-    "sunAlt": -4.69,
+    "launchTime": "2026-09-19T10:50:00.000Z",
+    "sunAlt": -3.33,
     "twilight": true,
-    "twilightDesc": "晨昏阶段（太阳高度角 -4.7°）· 可拍摄火箭云",
+    "twilightDesc": "晨昏阶段（太阳高度角 -3.3°）· 可拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          33.56667,
-          110.51667
-        ],
-        [
-          33.53333,
-          110.73333
-        ],
-        [
-          33.16667,
-          110.68333
-        ],
-        [
-          33.18333,
-          110.45
-        ]
-      ],
-      [
-        [
-          33.56667,
-          110.51667
-        ],
-        [
-          33.53333,
-          110.73333
-        ],
-        [
-          33.16667,
-          110.68333
-        ],
-        [
-          33.18333,
-          110.45
-        ]
-      ],
-      [
-        [
-          30.58333,
-          109.95
-        ],
-        [
-          30.55,
-          110.31667
-        ],
-        [
-          29.9,
-          110.21667
-        ],
-        [
-          29.95,
-          109.85
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
     {
