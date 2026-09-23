@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-09-23T17:28:04+08:00",
+  "fetched_at": "2026-09-23T22:22:22+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 8A · Unknown Payload",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
-    "mission_type": "海上发射 · 低倾角轨道",
-    "window_start": "2026-09-23T20:54:00+08:00",
-    "window_end": "2026-09-23T22:00:00+08:00",
-    "est_t0": "2026-09-23T20:36:00+08:00",
-    "debris_zone": "南海 · 落区 (8.48°N, 119.16°E)",
-    "debris_lat": 8.4786,
-    "debris_lng": 119.1571,
-    "direction": "东南 · 出海方向",
+    "mission_type": "Unknown",
+    "window_start": "2026-09-23T21:24:00+08:00",
+    "window_end": "2026-09-23T21:49:00+08:00",
+    "est_t0": "2026-09-23T21:15:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 19.6143,
+    "debris_lng": 110.9512,
+    "direction": "待定",
     "twilight_favorable": false,
     "note": "深夜发射，高空进入地影，无法拍摄",
     "spots": [
@@ -45,85 +45,17 @@
         110.9512
       ],
       [
-        13.0667,
-        115.8567
-      ],
-      [
-        12.2361,
-        116.0833
-      ],
-      [
-        8.4786,
-        119.1571
+        19.6143,
+        110.9512
       ]
     ],
-    "label": "2026年09月23日 21:30 · Long March 8A",
-    "launchTime": "2026-09-23T12:54:00.000Z",
-    "sunAlt": -41.33,
+    "label": "2026年09月23日 21:33 · Long March 8A",
+    "launchTime": "2026-09-23T13:33:00.000Z",
+    "sunAlt": -42.67,
     "twilight": false,
-    "twilightDesc": "深夜（太阳高度角 -41.3°）· 无法拍摄火箭云",
+    "twilightDesc": "深夜（太阳高度角 -42.7°）· 无法拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          12.23611,
-          116.08333
-        ]
-      ],
-      [
-        [
-          13.28333,
-          115.41667
-        ],
-        [
-          13.61667,
-          115.86667
-        ],
-        [
-          12.73333,
-          116.51667
-        ],
-        [
-          12.41667,
-          116.06667
-        ],
-        [
-          13.28333,
-          115.41667
-        ]
-      ],
-      [
-        [
-          8.68333,
-          118.71667
-        ],
-        [
-          9.0,
-          119.18333
-        ],
-        [
-          8.9,
-          119.36667
-        ],
-        [
-          8.01667,
-          119.98333
-        ],
-        [
-          7.58333,
-          119.38333
-        ],
-        [
-          8.48333,
-          118.75
-        ],
-        [
-          8.68333,
-          118.71667
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
     {
