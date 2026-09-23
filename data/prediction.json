@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-09-23T22:22:22+08:00",
+  "fetched_at": "2026-09-24T02:33:06+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 8A · Unknown Payload",
+    "code": "Long March 8A · SatNet LEO Group 26",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
-    "mission_type": "Unknown",
+    "mission_type": "Communications",
     "window_start": "2026-09-23T21:24:00+08:00",
     "window_end": "2026-09-23T21:49:00+08:00",
-    "est_t0": "2026-09-23T21:15:00+08:00",
+    "est_t0": "2026-09-23T21:14:00+08:00",
     "debris_zone": "落区详情待官方公布",
     "debris_lat": 19.6143,
     "debris_lng": 110.9512,
@@ -49,13 +49,13 @@
         110.9512
       ]
     ],
-    "label": "2026年09月23日 21:33 · Long March 8A",
-    "launchTime": "2026-09-23T13:33:00.000Z",
-    "sunAlt": -42.67,
+    "label": "2026年09月23日 21:32 · Long March 8A",
+    "launchTime": "2026-09-23T13:32:00.000Z",
+    "sunAlt": -42.45,
     "twilight": false,
-    "twilightDesc": "深夜（太阳高度角 -42.7°）· 无法拍摄火箭云",
+    "twilightDesc": "深夜（太阳高度角 -42.5°）· 无法拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
