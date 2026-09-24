@@ -1,112 +1,56 @@
 {
-  "fetched_at": "2026-09-24T19:36:24+08:00",
+  "fetched_at": "2026-09-25T00:55:42+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "Long March 8A · SatNet LEO Group 26",
-    "site": "文昌航天发射场",
-    "site_lat": 19.6143,
-    "site_lng": 110.9512,
-    "mission_type": "Communications",
-    "window_start": "2026-09-23T21:24:00+08:00",
-    "window_end": "2026-09-23T21:49:00+08:00",
-    "est_t0": "2026-09-23T21:14:00+08:00",
+    "code": "Long March 6A · Yaogan 40 Group 04",
+    "site": "太原卫星发射中心",
+    "site_lat": 38.849,
+    "site_lng": 111.608,
+    "mission_type": "Government/Top Secret",
+    "window_start": "2026-09-24T16:38:00+08:00",
+    "window_end": "2026-09-24T17:04:00+08:00",
+    "est_t0": "2026-09-24T16:28:00+08:00",
     "debris_zone": "落区详情待官方公布",
-    "debris_lat": 19.6143,
-    "debris_lng": 110.9512,
+    "debris_lat": 38.849,
+    "debris_lng": 111.608,
     "direction": "待定",
     "twilight_favorable": false,
-    "note": "深夜发射，高空进入地影，无法拍摄",
+    "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
       {
-        "name": "淇水湾沙滩",
-        "type": "免费",
-        "detail": "距发射塔约3km · 视野开阔",
-        "lat": 19.633,
-        "lng": 110.967
+        "name": "岢岚县团城村",
+        "type": "体验点",
+        "detail": "毗邻发射中心 · 尾迹远眺",
+        "lat": 38.79,
+        "lng": 111.65
       },
       {
-        "name": "富荣公寓楼顶",
-        "type": "白名单",
-        "detail": "约3.5km · 正对发射塔架",
-        "lat": 19.6345,
-        "lng": 110.9685
-      },
-      {
-        "name": "铜鼓岭",
-        "type": "远距",
-        "detail": "约8km · 尾迹云+海景组合",
-        "lat": 19.668,
-        "lng": 110.983
+        "name": "岢岚周边高点",
+        "type": "野外",
+        "detail": "尾迹云+山脊组合",
+        "lat": 38.81,
+        "lng": 111.58
       }
     ],
     "path": [
       [
-        19.6143,
-        110.9512
+        38.849,
+        111.608
       ],
       [
-        19.6143,
-        110.9512
+        38.849,
+        111.608
       ]
     ],
-    "label": "2026年09月23日 21:32 · Long March 8A",
-    "launchTime": "2026-09-23T13:32:00.000Z",
-    "sunAlt": -42.45,
+    "label": "2026年09月24日 16:46 · Long March 6A",
+    "launchTime": "2026-09-24T08:46:00.000Z",
+    "sunAlt": 19.0,
     "twilight": false,
-    "twilightDesc": "深夜（太阳高度角 -42.5°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 19.0°）· 无法拍摄火箭云",
     "status": "go",
     "source": "Launch Library 2"
   },
   "upcoming": [
-    {
-      "code": "Long March 6A · Yaogan 40 Group 04",
-      "site": "太原卫星发射中心",
-      "site_lat": 38.849,
-      "site_lng": 111.608,
-      "mission_type": "Government/Top Secret",
-      "window_start": "2026-09-24T16:38:00+08:00",
-      "window_end": "2026-09-24T17:04:00+08:00",
-      "est_t0": "2026-09-24T16:28:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 38.849,
-      "debris_lng": 111.608,
-      "direction": "待定",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "岢岚县团城村",
-          "type": "体验点",
-          "detail": "毗邻发射中心 · 尾迹远眺",
-          "lat": 38.79,
-          "lng": 111.65
-        },
-        {
-          "name": "岢岚周边高点",
-          "type": "野外",
-          "detail": "尾迹云+山脊组合",
-          "lat": 38.81,
-          "lng": 111.58
-        }
-      ],
-      "path": [
-        [
-          38.849,
-          111.608
-        ],
-        [
-          38.849,
-          111.608
-        ]
-      ],
-      "label": "2026年09月24日 16:46 · Long March 6A",
-      "launchTime": "2026-09-24T08:46:00.000Z",
-      "sunAlt": 19.0,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 19.0°）· 无法拍摄火箭云",
-      "status": "go",
-      "source": "Launch Library 2"
-    },
     {
       "code": "B4913/26 + B4912/26",
       "site": "文昌航天发射场",
