@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-09-24T13:58:49+08:00",
+  "fetched_at": "2026-09-24T19:36:24+08:00",
   "records": [
-    {
-      "code": "Long March 3B/E · TJSW-12",
-      "site": "西昌卫星发射中心",
-      "color": "#1F618D",
-      "path": [
-        [
-          28.2463,
-          102.027
-        ],
-        [
-          28.2463,
-          102.027
-        ]
-      ],
-      "label": "12-20 23:12 · 白天发射 · Long March 3B/E · TJSW-12",
-      "launchTime": "2024-12-20T15:12:00Z",
-      "sunAlt": -63.09,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -63.1°）· 无法拍摄火箭云"
-    },
     {
       "code": "Kinetica 1 · DEAR-3 & 10 other satellites",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -42.45,
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -42.5°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 6A · Yaogan 40 Group 04",
+      "site": "太原卫星发射中心",
+      "color": "#1E8449",
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          38.849,
+          111.608
+        ]
+      ],
+      "label": "09-24 16:46 · 白天发射 · Long March 6A · Yaogan 40 Group 04",
+      "launchTime": "2026-09-24T08:46:00Z",
+      "sunAlt": 19.0,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 19.0°）· 无法拍摄火箭云"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-09-24T13:58:49+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-09-24T19:36:24+08:00",
+  "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "Long March 8A · SatNet LEO Group 26",
     "site": "文昌航天发射场",
@@ -59,102 +59,53 @@
   },
   "upcoming": [
     {
-      "code": "Long March 6A · Unknown Payload",
+      "code": "Long March 6A · Yaogan 40 Group 04",
       "site": "太原卫星发射中心",
-      "site_lat": 19.6143,
-      "site_lng": 110.9512,
-      "mission_type": "海上发射 · 低倾角轨道",
+      "site_lat": 38.849,
+      "site_lng": 111.608,
+      "mission_type": "Government/Top Secret",
       "window_start": "2026-09-24T16:38:00+08:00",
-      "window_end": "2026-09-24T17:13:00+08:00",
-      "est_t0": "2026-09-24T16:20:00+08:00",
-      "debris_zone": "落区 (35.88°N, 112.16°E)",
-      "debris_lat": 35.8833,
-      "debris_lng": 112.1583,
-      "direction": "北",
+      "window_end": "2026-09-24T17:04:00+08:00",
+      "est_t0": "2026-09-24T16:28:00+08:00",
+      "debris_zone": "落区详情待官方公布",
+      "debris_lat": 38.849,
+      "debris_lng": 111.608,
+      "direction": "待定",
       "twilight_favorable": false,
       "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
       "spots": [
         {
-          "name": "淇水湾沙滩",
-          "type": "免费",
-          "detail": "距发射塔约3km · 视野开阔",
-          "lat": 19.633,
-          "lng": 110.967
+          "name": "岢岚县团城村",
+          "type": "体验点",
+          "detail": "毗邻发射中心 · 尾迹远眺",
+          "lat": 38.79,
+          "lng": 111.65
         },
         {
-          "name": "富荣公寓楼顶",
-          "type": "白名单",
-          "detail": "约3.5km · 正对发射塔架",
-          "lat": 19.6345,
-          "lng": 110.9685
-        },
-        {
-          "name": "铜鼓岭",
-          "type": "远距",
-          "detail": "约8km · 尾迹云+海景组合",
-          "lat": 19.668,
-          "lng": 110.983
+          "name": "岢岚周边高点",
+          "type": "野外",
+          "detail": "尾迹云+山脊组合",
+          "lat": 38.81,
+          "lng": 111.58
         }
       ],
       "path": [
         [
-          19.6143,
-          110.9512
+          38.849,
+          111.608
         ],
         [
-          17.8042,
-          112.2083
-        ],
-        [
-          35.8833,
-          112.1583
+          38.849,
+          111.608
         ]
       ],
-      "label": "2026年09月24日 16:45 · Long March 6A",
-      "launchTime": "2026-09-24T08:38:00.000Z",
-      "sunAlt": 21.75,
+      "label": "2026年09月24日 16:46 · Long March 6A",
+      "launchTime": "2026-09-24T08:46:00.000Z",
+      "sunAlt": 19.0,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 21.8°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 19.0°）· 无法拍摄火箭云",
       "status": "go",
-      "debris_polygons": [
-        [
-          [
-            36.03333,
-            112.01667
-          ],
-          [
-            36.06667,
-            112.25
-          ],
-          [
-            35.73333,
-            112.3
-          ],
-          [
-            35.7,
-            112.06667
-          ]
-        ],
-        [
-          [
-            18.4,
-            111.91667
-          ],
-          [
-            18.4,
-            112.46667
-          ],
-          [
-            17.21667,
-            112.5
-          ],
-          [
-            17.2,
-            111.95
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+      "source": "Launch Library 2"
     },
     {
       "code": "B4913/26 + B4912/26",
