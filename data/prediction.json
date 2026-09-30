@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-09-30T08:15:01+08:00",
+  "fetched_at": "2026-09-30T13:51:25+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "B4913/26 + B4912/26",
+    "code": "Long March 12 · Unknown Payload",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
@@ -53,7 +53,7 @@
         129.7628
       ]
     ],
-    "label": "2026年10月07日 11:23 · B4913/26 + B4912/26",
+    "label": "2026年10月10日 03:25 · Long March 12",
     "launchTime": "2026-10-07T03:23:00.000Z",
     "sunAlt": -76.49,
     "twilight": false,
@@ -105,7 +105,7 @@
         ]
       ]
     ],
-    "source": "DAIP NOTAM"
+    "source": "DAIP NOTAM + Launch Library 2"
   },
   "upcoming": [
     {
