@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-02T00:13:26+08:00",
-  "source": "DAIP NOTAM + Launch Library 2",
+  "fetched_at": "2026-10-02T05:13:30+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "B5207/26 + B5205/26",
     "site": "文昌航天发射场",
@@ -186,7 +186,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Long March 12A · Flight 2",
