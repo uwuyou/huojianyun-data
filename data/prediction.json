@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-10-12T13:27:49+08:00",
+  "fetched_at": "2026-10-12T21:27:17+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "A5095/26",
+    "code": "A5150/26",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
     "mission_type": "载人航天/商业发射",
-    "window_start": "2026-10-14T11:22:00+08:00",
-    "window_end": "2026-10-14T12:36:00+08:00",
-    "est_t0": "2026-10-14T11:04:00+08:00",
+    "window_start": "2026-10-14T09:39:00+08:00",
+    "window_end": "2026-10-14T14:44:00+08:00",
+    "est_t0": "2026-10-14T09:21:00+08:00",
     "debris_zone": "落区 (39.51°N, 101.54°E)",
     "debris_lat": 39.5111,
     "debris_lng": 101.5429,
@@ -49,11 +49,11 @@
         101.5429
       ]
     ],
-    "label": "2026年10月14日 11:22 · A5095/26",
-    "launchTime": "2026-10-14T03:22:00.000Z",
-    "sunAlt": 38.74,
+    "label": "2026年10月14日 09:39 · A5150/26",
+    "launchTime": "2026-10-14T01:39:00.000Z",
+    "sunAlt": 39.52,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 38.7°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 39.5°）· 无法拍摄火箭云",
     "status": "go",
     "debris_polygons": [
       [
