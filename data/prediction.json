@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-13T05:50:20+08:00",
+  "fetched_at": "2026-10-13T10:56:07+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "A5150/26",
@@ -79,7 +79,7 @@
   },
   "upcoming": [
     {
-      "code": "A5085/26 + A5086/26",
+      "code": "Zhuque-2E · Unknown Payload",
       "site": "酒泉卫星发射中心",
       "site_lat": 40.967,
       "site_lng": 100.267,
@@ -130,7 +130,7 @@
           97.9417
         ]
       ],
-      "label": "2026年10月14日 19:33 · A5085/26 + A5086/26",
+      "label": "2026年10月14日 19:40 · Zhuque-2E",
       "launchTime": "2026-10-14T11:33:00.000Z",
       "sunAlt": -15.5,
       "twilight": true,
@@ -174,7 +174,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "B5431/26 + B5405/26 + B5404/26",
