@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-14T21:00:08+08:00",
-  "source": "DAIP NOTAM + RocketLaunch.Live",
+  "fetched_at": "2026-10-15T01:57:22+08:00",
+  "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "Zhuque-2E Block 2 · 10 satellites",
     "site": "酒泉卫星发射中心",
@@ -55,7 +55,7 @@
     "twilight": true,
     "twilightDesc": "晨昏阶段（太阳高度角 -11.8°）· 可拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
