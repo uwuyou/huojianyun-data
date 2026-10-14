@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-10-14T15:22:26+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-10-14T21:00:08+08:00",
+  "source": "DAIP NOTAM + RocketLaunch.Live",
   "next_launch": {
-    "code": "Zhuque-2E · Unknown Payload",
+    "code": "Zhuque-2E Block 2 · 10 satellites",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
-    "mission_type": "载人航天/商业发射",
+    "mission_type": "Technology",
     "window_start": "2026-10-14T19:33:00+08:00",
-    "window_end": "2026-10-14T20:26:00+08:00",
-    "est_t0": "2026-10-14T19:15:00+08:00",
-    "debris_zone": "落区 (32.59°N, 97.94°E)",
-    "debris_lat": 32.5917,
-    "debris_lng": 97.9417,
-    "direction": "南",
+    "window_end": "2026-10-14T20:19:00+08:00",
+    "est_t0": "2026-10-14T19:22:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 40.967,
+    "debris_lng": 100.267,
+    "direction": "待定",
     "twilight_favorable": true,
     "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
     "spots": [
@@ -45,59 +45,17 @@
         100.267
       ],
       [
-        35.475,
-        98.2583
-      ],
-      [
-        32.5917,
-        97.9417
+        40.967,
+        100.267
       ]
     ],
-    "label": "2026年10月14日 19:40 · Zhuque-2E",
-    "launchTime": "2026-10-14T11:33:00.000Z",
-    "sunAlt": -15.5,
+    "label": "2026年10月14日 19:40 · Zhuque-2E Block 2",
+    "launchTime": "2026-10-14T11:40:00.000Z",
+    "sunAlt": -11.81,
     "twilight": true,
-    "twilightDesc": "晨昏阶段（太阳高度角 -15.5°）· 可拍摄火箭云",
+    "twilightDesc": "晨昏阶段（太阳高度角 -11.8°）· 可拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          35.68333,
-          98.2
-        ],
-        [
-          35.63333,
-          98.43333
-        ],
-        [
-          35.26667,
-          98.31667
-        ],
-        [
-          35.31667,
-          98.08333
-        ]
-      ],
-      [
-        [
-          33.03333,
-          97.58333
-        ],
-        [
-          32.86667,
-          98.48333
-        ],
-        [
-          32.15,
-          98.3
-        ],
-        [
-          32.31667,
-          97.4
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
     {
