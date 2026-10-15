@@ -1,10 +1,10 @@
 {
   "ok": true,
   "error": null,
-  "last_attempt": "2026-10-15T23:16:42+08:00",
-  "last_success": "2026-10-15T23:16:42+08:00",
-  "source": "DAIP NOTAM + Launch Library 2",
+  "last_attempt": "2026-10-16T03:20:09+08:00",
+  "last_success": "2026-10-16T03:20:09+08:00",
+  "source": "DAIP NOTAM",
   "record_count": 9,
   "upcoming_count": 6,
-  "history_count": 150
+  "history_count": 0
 }
