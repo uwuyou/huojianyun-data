@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-16T19:48:16+08:00",
+  "fetched_at": "2026-10-17T00:26:07+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "A5222/26 + A5223/26",
@@ -137,7 +137,7 @@
           120.5952
         ]
       ],
-      "label": "2026年10月22日 10:00 · Long March 8A",
+      "label": "2026年10月22日 10:57 · Long March 8A",
       "launchTime": "2026-10-22T02:00:00.000Z",
       "sunAlt": -75.48,
       "twilight": false,
