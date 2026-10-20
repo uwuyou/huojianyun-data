@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T06:12:21+08:00",
+  "fetched_at": "2026-10-20T09:10:40+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "A5222/26 + A5223/26",
@@ -81,6 +81,82 @@
     "source": "DAIP NOTAM"
   },
   "upcoming": [
+    {
+      "code": "B5637/26",
+      "site": "文昌航天发射场",
+      "site_lat": 19.6143,
+      "site_lng": 110.9512,
+      "mission_type": "海上发射 · 低倾角轨道",
+      "window_start": "2026-10-22T05:30:00+08:00",
+      "window_end": "2026-10-22T07:30:00+08:00",
+      "est_t0": "2026-10-22T05:12:00+08:00",
+      "debris_zone": "南海 · 落区 (19.08°N, 125.58°E)",
+      "debris_lat": 19.0833,
+      "debris_lng": 125.5833,
+      "direction": "东 · 出海方向",
+      "twilight_favorable": true,
+      "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
+      "spots": [
+        {
+          "name": "淇水湾沙滩",
+          "type": "免费",
+          "detail": "距发射塔约3km · 视野开阔",
+          "lat": 19.633,
+          "lng": 110.967
+        },
+        {
+          "name": "富荣公寓楼顶",
+          "type": "白名单",
+          "detail": "约3.5km · 正对发射塔架",
+          "lat": 19.6345,
+          "lng": 110.9685
+        },
+        {
+          "name": "铜鼓岭",
+          "type": "远距",
+          "detail": "约8km · 尾迹云+海景组合",
+          "lat": 19.668,
+          "lng": 110.983
+        }
+      ],
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.0833,
+          125.5833
+        ]
+      ],
+      "label": "2026年10月22日 05:30 · B5637/26",
+      "launchTime": "2026-10-21T21:30:00.000Z",
+      "sunAlt": -1.55,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -1.6°）· 可拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            17.16667,
+            124.08333
+          ],
+          [
+            17.16667,
+            128.75
+          ],
+          [
+            21.0,
+            128.75
+          ],
+          [
+            21.0,
+            120.75
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM"
+    },
     {
       "code": "Long March 8A · Unknown Payload",
       "site": "文昌航天发射场",
