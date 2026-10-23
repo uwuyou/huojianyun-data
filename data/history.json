@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T03:29:20+08:00",
+  "fetched_at": "2026-10-24T06:34:44+08:00",
   "records": [
     {
       "code": "Long March 6A · SpaceSail Polar Group #4",
@@ -2982,7 +2982,7 @@
       "twilightDesc": "晨昏阶段（太阳高度角 -6.4°）· 可拍摄火箭云"
     },
     {
-      "code": "Long March 4B · Unknown Payload",
+      "code": "Long March 4B · Yaogan 53-07 to 09/56-19 to 21",
       "site": "酒泉卫星发射中心",
       "color": "#D68910",
       "path": [
@@ -2995,7 +2995,7 @@
           100.267
         ]
       ],
-      "label": "10-24 03:25 · 白天发射 · Long March 4B · Unknown Payload",
+      "label": "10-24 03:25 · 白天发射 · Long March 4B · Yaogan 53-07 to 09/56-19 to 21",
       "launchTime": "2026-10-23T19:25:00Z",
       "sunAlt": -47.21,
       "twilight": false,

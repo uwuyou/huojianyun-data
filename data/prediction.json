@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T03:29:20+08:00",
+  "fetched_at": "2026-10-24T06:34:44+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 6A · Yaogan 50-03",
@@ -52,14 +52,14 @@
   },
   "upcoming": [
     {
-      "code": "Unconfirmed Vehicle",
+      "code": "Long March 4B · Yaogan 53-07 to 09/56-19 to 21",
       "site": "酒泉卫星发射中心",
       "site_lat": 40.967,
       "site_lng": 100.267,
-      "mission_type": "太阳同步轨道卫星",
-      "window_start": "2026-10-24T02:00:00+08:00",
-      "window_end": "2026-10-24T02:00:00+08:00",
-      "est_t0": "2026-10-24T01:42:00+08:00",
+      "mission_type": "Government/Top Secret",
+      "window_start": "2026-10-24T03:17:00+08:00",
+      "window_end": "2026-10-24T03:39:00+08:00",
+      "est_t0": "2026-10-24T03:07:00+08:00",
       "debris_zone": "落区详情待官方公布",
       "debris_lat": 40.967,
       "debris_lng": 100.267,
@@ -99,13 +99,13 @@
           100.267
         ]
       ],
-      "label": "2026年10月24日 02:00 · Unconfirmed Vehicle",
-      "launchTime": "2026-10-23T18:00:00.000Z",
-      "sunAlt": -57.97,
+      "label": "2026年10月24日 03:25 · Long March 4B",
+      "launchTime": "2026-10-23T19:25:00.000Z",
+      "sunAlt": -47.21,
       "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -58.0°）· 无法拍摄火箭云",
+      "twilightDesc": "深夜（太阳高度角 -47.2°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "RocketLaunch.Live + DAIP NOTAM + Launch Library 2"
+      "source": "Launch Library 2"
     },
     {
       "code": "A5495/26",
