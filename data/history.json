@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-10-23T13:13:49+08:00",
+  "fetched_at": "2026-10-23T18:25:19+08:00",
   "records": [
-    {
-      "code": "Long March 2D · PRSC-EO1",
-      "site": "酒泉卫星发射中心",
-      "color": "#D68910",
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "01-17 12:07 · 白天发射 · Long March 2D · PRSC-EO1",
-      "launchTime": "2025-01-17T04:07:00Z",
-      "sunAlt": 25.36,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 25.4°）· 无法拍摄火箭云"
-    },
     {
       "code": "Ceres-1 · 5 satellites",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -11.81,
       "twilight": true,
       "twilightDesc": "晨昏阶段（太阳高度角 -11.8°）· 可拍摄火箭云"
+    },
+    {
+      "code": "Long March 6A · Unknown Payload",
+      "site": "太原卫星发射中心",
+      "color": "#1E8449",
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          38.849,
+          111.608
+        ]
+      ],
+      "label": "10-23 18:15 · 傍晚发射 · Long March 6A · Unknown Payload",
+      "launchTime": "2026-10-23T10:15:00Z",
+      "sunAlt": -6.44,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -6.4°）· 可拍摄火箭云"
     }
   ]
 }
