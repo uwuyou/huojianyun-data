@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-23T18:25:19+08:00",
+  "fetched_at": "2026-10-23T23:23:24+08:00",
   "records": [
     {
       "code": "Ceres-1 · 5 satellites",
@@ -2982,7 +2982,7 @@
       "twilightDesc": "晨昏阶段（太阳高度角 -11.8°）· 可拍摄火箭云"
     },
     {
-      "code": "Long March 6A · Unknown Payload",
+      "code": "Long March 6A · Yaogan 50-03",
       "site": "太原卫星发射中心",
       "color": "#1E8449",
       "path": [
@@ -2995,7 +2995,7 @@
           111.608
         ]
       ],
-      "label": "10-23 18:15 · 傍晚发射 · Long March 6A · Unknown Payload",
+      "label": "10-23 18:15 · 傍晚发射 · Long March 6A · Yaogan 50-03",
       "launchTime": "2026-10-23T10:15:00Z",
       "sunAlt": -6.44,
       "twilight": true,
