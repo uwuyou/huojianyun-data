@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-10-23T23:23:24+08:00",
+  "fetched_at": "2026-10-24T03:29:20+08:00",
   "records": [
-    {
-      "code": "Ceres-1 · 5 satellites",
-      "site": "酒泉卫星发射中心",
-      "color": "#D68910",
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "01-20 18:11 · 白天发射 · Ceres-1 · 5 satellites",
-      "launchTime": "2025-01-20T10:11:00Z",
-      "sunAlt": 0.86,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 0.9°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 6A · SpaceSail Polar Group #4",
       "site": "太原卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -6.44,
       "twilight": true,
       "twilightDesc": "晨昏阶段（太阳高度角 -6.4°）· 可拍摄火箭云"
+    },
+    {
+      "code": "Long March 4B · Unknown Payload",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "10-24 03:25 · 白天发射 · Long March 4B · Unknown Payload",
+      "launchTime": "2026-10-23T19:25:00Z",
+      "sunAlt": -47.21,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -47.2°）· 无法拍摄火箭云"
     }
   ]
 }
