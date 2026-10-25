@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-10-25T09:29:09+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-10-25T14:44:17+08:00",
+  "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "Long March 8A · Unknown Payload",
+    "code": "Long March 8A · SatNet LEO Group 28",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
-    "mission_type": "海上发射 · 低倾角轨道",
-    "window_start": "2026-10-25T09:10:00+08:00",
-    "window_end": "2026-10-25T10:45:00+08:00",
-    "est_t0": "2026-10-25T08:52:00+08:00",
-    "debris_zone": "南海 · 落区 (7.68°N, 120.60°E)",
-    "debris_lat": 7.6786,
-    "debris_lng": 120.5952,
-    "direction": "东南 · 出海方向",
+    "mission_type": "Communications",
+    "window_start": "2026-10-25T09:42:00+08:00",
+    "window_end": "2026-10-25T10:32:00+08:00",
+    "est_t0": "2026-10-25T09:45:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 19.6143,
+    "debris_lng": 110.9512,
+    "direction": "待定",
     "twilight_favorable": false,
     "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
@@ -45,89 +45,17 @@
         110.9512
       ],
       [
-        13.08,
-        116.3733
-      ],
-      [
-        12.5136,
-        117.1564
-      ],
-      [
-        7.6786,
-        120.5952
+        19.6143,
+        110.9512
       ]
     ],
-    "label": "2026年10月25日 09:50 · Long March 8A",
-    "launchTime": "2026-10-25T01:10:00.000Z",
-    "sunAlt": 42.72,
+    "label": "2026年10月25日 10:03 · Long March 8A",
+    "launchTime": "2026-10-25T02:03:00.000Z",
+    "sunAlt": 43.72,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 42.7°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 43.7°）· 无法拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          12.51361,
-          117.15639
-        ],
-        [
-          12.51361,
-          117.15639
-        ]
-      ],
-      [
-        [
-          13.28333,
-          115.91667
-        ],
-        [
-          13.63333,
-          116.36667
-        ],
-        [
-          12.76667,
-          117.05
-        ],
-        [
-          12.43333,
-          116.61667
-        ],
-        [
-          13.28333,
-          115.91667
-        ]
-      ],
-      [
-        [
-          8.0,
-          119.95
-        ],
-        [
-          8.43333,
-          120.53333
-        ],
-        [
-          7.58333,
-          121.21667
-        ],
-        [
-          7.46667,
-          121.16667
-        ],
-        [
-          7.13333,
-          120.73333
-        ],
-        [
-          7.13333,
-          120.61667
-        ],
-        [
-          8.0,
-          119.95
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
