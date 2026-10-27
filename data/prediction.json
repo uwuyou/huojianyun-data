@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-10-27T07:15:40+08:00",
+  "fetched_at": "2026-10-27T10:21:07+08:00",
   "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "B5731/26",
+    "code": "Long March 12 · SatNet LEO Group TBD?",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
@@ -49,7 +49,7 @@
         119.21
       ]
     ],
-    "label": "2026年11月06日 04:00 · B5731/26",
+    "label": "2026年11月06日 04:00 · Long March 12",
     "launchTime": "2026-11-05T20:00:00.000Z",
     "sunAlt": -16.91,
     "twilight": true,
@@ -79,7 +79,7 @@
         ]
       ]
     ],
-    "source": "DAIP NOTAM"
+    "source": "DAIP NOTAM + Launch Library 2"
   },
   "upcoming": [
     {
