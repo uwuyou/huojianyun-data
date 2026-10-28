@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-28T13:06:43+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-10-28T19:31:24+08:00",
+  "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
     "code": "A5564/26",
     "site": "太原卫星发射中心",
@@ -247,7 +247,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+      "source": "DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Long March 2F/G · Shenzhou 24",
