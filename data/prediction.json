@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-10-29T06:46:28+08:00",
-  "source": "DAIP NOTAM + Launch Library 2",
+  "fetched_at": "2026-10-29T10:15:23+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "A5564/26",
     "site": "太原卫星发射中心",
@@ -167,7 +167,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Ceres-2 · Unknown Payload",
