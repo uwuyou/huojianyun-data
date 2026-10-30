@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-31T03:54:12+08:00",
+  "fetched_at": "2026-10-31T07:33:05+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "A5564/26",
@@ -223,7 +223,7 @@
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -33.1°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2"
+      "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "A5624/26",
