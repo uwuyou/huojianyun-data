@@ -1,174 +1,105 @@
 {
-  "fetched_at": "2026-10-31T13:00:31+08:00",
-  "source": "DAIP NOTAM + RocketLaunch.Live",
+  "fetched_at": "2026-10-31T19:06:53+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "A5564/26",
-    "site": "太原卫星发射中心",
-    "site_lat": 38.849,
-    "site_lng": 111.608,
-    "mission_type": "太阳同步轨道卫星",
-    "window_start": "2026-10-31T12:51:00+08:00",
-    "window_end": "2026-10-31T13:15:00+08:00",
-    "est_t0": "2026-10-31T12:33:00+08:00",
-    "debris_zone": "落区 (39.27°N, 109.38°E)",
-    "debris_lat": 39.275,
-    "debris_lng": 109.3833,
-    "direction": "西",
+    "code": "Kinetica 2 · SpaceSail Polar Group TBD?",
+    "site": "酒泉卫星发射中心",
+    "site_lat": 28.2463,
+    "site_lng": 102.027,
+    "mission_type": "地球同步轨道卫星",
+    "window_start": "2026-11-03T08:05:00+08:00",
+    "window_end": "2026-11-03T08:46:00+08:00",
+    "est_t0": "2026-11-03T07:47:00+08:00",
+    "debris_zone": "落区 (32.62°N, 99.04°E)",
+    "debris_lat": 32.625,
+    "debris_lng": 99.0417,
+    "direction": "西北",
     "twilight_favorable": false,
     "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
       {
-        "name": "岢岚县团城村",
-        "type": "体验点",
-        "detail": "毗邻发射中心 · 尾迹远眺",
-        "lat": 38.79,
-        "lng": 111.65
+        "name": "青杠坝山坡观景台",
+        "type": "观景台",
+        "detail": "距发射场约3km · 远眺发射场",
+        "lat": 28.235,
+        "lng": 102.045
       },
       {
-        "name": "岢岚周边高点",
-        "type": "野外",
-        "detail": "尾迹云+山脊组合",
-        "lat": 38.81,
-        "lng": 111.58
+        "name": "奔月广场",
+        "type": "展示区",
+        "detail": "航天主题展示区",
+        "lat": 28.25,
+        "lng": 102.05
+      },
+      {
+        "name": "南山坡机位",
+        "type": "机位",
+        "detail": "历史最佳机位 · 俯拍发射场",
+        "lat": 28.238,
+        "lng": 102.02
       }
     ],
     "path": [
       [
-        38.849,
-        111.608
+        28.2463,
+        102.027
       ],
       [
-        39.275,
-        109.3833
+        30.3667,
+        98.9042
+      ],
+      [
+        32.625,
+        99.0417
       ]
     ],
-    "label": "2026年10月31日 12:51 · A5564/26",
-    "launchTime": "2026-10-31T04:51:00.000Z",
-    "sunAlt": 36.13,
+    "label": "2026年11月03日 08:10 · Kinetica 2",
+    "launchTime": "2026-11-03T00:05:00.000Z",
+    "sunAlt": 11.74,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 36.1°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 11.7°）· 无法拍摄火箭云",
     "status": "go",
     "debris_polygons": [
       [
         [
-          39.46667,
-          109.08333
+          33.06667,
+          98.81667
         ],
         [
-          39.33333,
-          109.76667
+          33.01667,
+          99.36667
         ],
         [
-          39.08333,
-          109.68333
+          32.18333,
+          99.26667
         ],
         [
-          39.21667,
-          109.0
+          32.23333,
+          98.71667
+        ]
+      ],
+      [
+        [
+          30.65,
+          98.63333
+        ],
+        [
+          30.6,
+          99.28333
+        ],
+        [
+          30.08333,
+          99.11667
+        ],
+        [
+          30.13333,
+          98.58333
         ]
       ]
     ],
-    "source": "DAIP NOTAM"
+    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
-    {
-      "code": "Kinetica 2 · SpaceSail Polar Group TBD?",
-      "site": "酒泉卫星发射中心",
-      "site_lat": 28.2463,
-      "site_lng": 102.027,
-      "mission_type": "地球同步轨道卫星",
-      "window_start": "2026-11-03T08:05:00+08:00",
-      "window_end": "2026-11-03T08:46:00+08:00",
-      "est_t0": "2026-11-03T07:47:00+08:00",
-      "debris_zone": "落区 (32.62°N, 99.04°E)",
-      "debris_lat": 32.625,
-      "debris_lng": 99.0417,
-      "direction": "西北",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "青杠坝山坡观景台",
-          "type": "观景台",
-          "detail": "距发射场约3km · 远眺发射场",
-          "lat": 28.235,
-          "lng": 102.045
-        },
-        {
-          "name": "奔月广场",
-          "type": "展示区",
-          "detail": "航天主题展示区",
-          "lat": 28.25,
-          "lng": 102.05
-        },
-        {
-          "name": "南山坡机位",
-          "type": "机位",
-          "detail": "历史最佳机位 · 俯拍发射场",
-          "lat": 28.238,
-          "lng": 102.02
-        }
-      ],
-      "path": [
-        [
-          28.2463,
-          102.027
-        ],
-        [
-          30.3667,
-          98.9042
-        ],
-        [
-          32.625,
-          99.0417
-        ]
-      ],
-      "label": "2026年11月03日 08:10 · Kinetica 2",
-      "launchTime": "2026-11-03T00:05:00.000Z",
-      "sunAlt": 11.74,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 11.7°）· 无法拍摄火箭云",
-      "status": "go",
-      "debris_polygons": [
-        [
-          [
-            33.06667,
-            98.81667
-          ],
-          [
-            33.01667,
-            99.36667
-          ],
-          [
-            32.18333,
-            99.26667
-          ],
-          [
-            32.23333,
-            98.71667
-          ]
-        ],
-        [
-          [
-            30.65,
-            98.63333
-          ],
-          [
-            30.6,
-            99.28333
-          ],
-          [
-            30.08333,
-            99.11667
-          ],
-          [
-            30.13333,
-            98.58333
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
-    },
     {
       "code": "Ceres-2 · Unknown Payload",
       "site": "酒泉卫星发射中心",
@@ -355,7 +286,7 @@
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -72.0°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2"
+      "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Long March 12 · SatNet LEO Group TBD?",
