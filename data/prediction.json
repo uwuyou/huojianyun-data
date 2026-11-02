@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T17:10:52+08:00",
+  "fetched_at": "2026-11-03T03:41:38+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Kinetica 2 · SpaceSail Polar Group TBD?",
@@ -100,6 +100,112 @@
     "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
+    {
+      "code": "A5680/26 + A5680/26",
+      "site": "文昌航天发射场",
+      "site_lat": 19.6143,
+      "site_lng": 110.9512,
+      "mission_type": "海上发射 · 低倾角轨道",
+      "window_start": "2026-11-03T09:40:00+08:00",
+      "window_end": "2026-11-03T11:00:00+08:00",
+      "est_t0": "2026-11-03T09:22:00+08:00",
+      "debris_zone": "南海 · 落区 (23.27°N, 117.01°E)",
+      "debris_lat": 23.2748,
+      "debris_lng": 117.011,
+      "direction": "东北 · 出海方向",
+      "twilight_favorable": false,
+      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
+      "spots": [
+        {
+          "name": "淇水湾沙滩",
+          "type": "免费",
+          "detail": "距发射塔约3km · 视野开阔",
+          "lat": 19.633,
+          "lng": 110.967
+        },
+        {
+          "name": "富荣公寓楼顶",
+          "type": "白名单",
+          "detail": "约3.5km · 正对发射塔架",
+          "lat": 19.6345,
+          "lng": 110.9685
+        },
+        {
+          "name": "铜鼓岭",
+          "type": "远距",
+          "detail": "约8km · 尾迹云+海景组合",
+          "lat": 19.668,
+          "lng": 110.983
+        }
+      ],
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          23.2748,
+          117.011
+        ],
+        [
+          23.2748,
+          117.011
+        ]
+      ],
+      "label": "2026年11月03日 09:40 · A5680/26 + A5680/26",
+      "launchTime": "2026-11-03T01:40:00.000Z",
+      "sunAlt": 44.59,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 44.6°）· 无法拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            23.11,
+            116.47
+          ],
+          [
+            23.67833,
+            117.74028
+          ],
+          [
+            23.50333,
+            117.8325
+          ],
+          [
+            22.97222,
+            116.54222
+          ],
+          [
+            23.11,
+            116.47
+          ]
+        ],
+        [
+          [
+            23.11,
+            116.47
+          ],
+          [
+            23.67833,
+            117.74028
+          ],
+          [
+            23.50333,
+            117.8325
+          ],
+          [
+            22.97222,
+            116.54222
+          ],
+          [
+            23.11,
+            116.47
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM"
+    },
     {
       "code": "Unconfirmed Vehicle",
       "site": "酒泉卫星发射中心",
@@ -289,20 +395,20 @@
       "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
-      "code": "Long March 12 · SatNet LEO Group TBD?",
+      "code": "Long March 12",
       "site": "文昌航天发射场",
       "site_lat": 19.6143,
       "site_lng": 110.9512,
       "mission_type": "海上发射 · 低倾角轨道",
-      "window_start": "2026-11-06T05:10:00+08:00",
-      "window_end": "2026-11-06T05:39:00+08:00",
-      "est_t0": "2026-11-06T04:52:00+08:00",
-      "debris_zone": "南海 · 落区 (9.14°N, 119.21°E)",
-      "debris_lat": 9.14,
-      "debris_lng": 119.21,
-      "direction": "东南 · 出海方向",
-      "twilight_favorable": true,
-      "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
+      "window_start": "2026-11-06T04:00:00+08:00",
+      "window_end": "2026-11-06T04:00:00+08:00",
+      "est_t0": "2026-11-06T03:42:00+08:00",
+      "debris_zone": "落区详情待官方公布",
+      "debris_lat": 19.6143,
+      "debris_lng": 110.9512,
+      "direction": "待定",
+      "twilight_favorable": false,
+      "note": "深夜发射，高空进入地影，无法拍摄",
       "spots": [
         {
           "name": "淇水湾沙滩",
@@ -332,41 +438,17 @@
           110.9512
         ],
         [
-          9.14,
-          119.21
+          19.6143,
+          110.9512
         ]
       ],
-      "label": "2026年11月06日 05:15 · Long March 12",
-      "launchTime": "2026-11-05T21:10:00.000Z",
-      "sunAlt": -18.0,
-      "twilight": true,
-      "twilightDesc": "晨昏阶段（太阳高度角 -18.0°）· 可拍摄火箭云",
+      "label": "2026年11月06日 04:00 · Long March 12",
+      "launchTime": "2026-11-05T20:00:00.000Z",
+      "sunAlt": -37.69,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -37.7°）· 无法拍摄火箭云",
       "status": "go",
-      "debris_polygons": [
-        [
-          [
-            9.26667,
-            118.95
-          ],
-          [
-            9.46667,
-            119.21667
-          ],
-          [
-            8.95,
-            119.6
-          ],
-          [
-            8.75,
-            119.33333
-          ],
-          [
-            9.26667,
-            118.95
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "RocketLaunch.Live + DAIP NOTAM + Launch Library 2"
     },
     {
       "code": "Ceres-2 · Unknown Payload",
@@ -494,9 +576,9 @@
       "site_lat": 19.6143,
       "site_lng": 110.9512,
       "mission_type": "海上发射 · 低倾角轨道",
-      "window_start": "2026-11-20T19:00:00+08:00",
-      "window_end": "2026-11-23T22:00:00+08:00",
-      "est_t0": "2026-11-20T18:42:00+08:00",
+      "window_start": "2026-11-20T18:30:00+08:00",
+      "window_end": "2026-11-23T22:10:00+08:00",
+      "est_t0": "2026-11-20T18:12:00+08:00",
       "debris_zone": "南海 · 落区 (8.34°N, 119.26°E)",
       "debris_lat": 8.3381,
       "debris_lng": 119.2595,
@@ -536,17 +618,31 @@
           116.0567
         ],
         [
+          12.25,
+          116.6417
+        ],
+        [
           8.3381,
           119.2595
         ]
       ],
       "label": "2026年11月20日 19:00 · Long March 8A",
-      "launchTime": "2026-11-20T11:00:00.000Z",
-      "sunAlt": 20.67,
+      "launchTime": "2026-11-20T10:30:00.000Z",
+      "sunAlt": 18.65,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 20.7°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 18.6°）· 无法拍摄火箭云",
       "status": "go",
       "debris_polygons": [
+        [
+          [
+            12.5,
+            116.91667
+          ],
+          [
+            12.0,
+            116.36667
+          ]
+        ],
         [
           [
             8.58333,
