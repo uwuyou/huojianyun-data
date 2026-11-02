@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T09:43:13+08:00",
+  "fetched_at": "2026-11-02T17:10:52+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Kinetica 2 · SpaceSail Polar Group TBD?",
@@ -101,13 +101,13 @@
   },
   "upcoming": [
     {
-      "code": "Ceres-2 · Unknown Payload",
+      "code": "Unconfirmed Vehicle",
       "site": "酒泉卫星发射中心",
       "site_lat": 40.967,
       "site_lng": 100.267,
-      "mission_type": "Unknown",
+      "mission_type": "待定",
       "window_start": "2026-11-05T05:00:00+08:00",
-      "window_end": "2026-11-05T10:00:00+08:00",
+      "window_end": "2026-11-05T05:00:00+08:00",
       "est_t0": "2026-11-05T04:42:00+08:00",
       "debris_zone": "落区详情待官方公布",
       "debris_lat": 40.967,
@@ -148,13 +148,13 @@
           100.267
         ]
       ],
-      "label": "2026年11月05日 05:00 · Ceres-2",
+      "label": "2026年11月05日 05:00 · Unconfirmed Vehicle",
       "launchTime": "2026-11-04T21:00:00.000Z",
       "sunAlt": -33.11,
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -33.1°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2 + RocketLaunch.Live"
+      "source": "RocketLaunch.Live"
     },
     {
       "code": "A5624/26",
@@ -363,6 +363,126 @@
           [
             9.26667,
             118.95
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM + Launch Library 2"
+    },
+    {
+      "code": "Ceres-2 · Unknown Payload",
+      "site": "酒泉卫星发射中心",
+      "site_lat": 40.967,
+      "site_lng": 100.267,
+      "mission_type": "载人航天/商业发射",
+      "window_start": "2026-11-07T07:28:00+08:00",
+      "window_end": "2026-11-07T07:57:00+08:00",
+      "est_t0": "2026-11-07T07:10:00+08:00",
+      "debris_zone": "落区 (31.41°N, 97.62°E)",
+      "debris_lat": 31.4083,
+      "debris_lng": 97.625,
+      "direction": "南",
+      "twilight_favorable": true,
+      "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
+      "spots": [
+        {
+          "name": "45号观礼点",
+          "type": "官方",
+          "detail": "约2km · 正对发射工位",
+          "lat": 40.955,
+          "lng": 100.285
+        },
+        {
+          "name": "96号观礼点",
+          "type": "官方",
+          "detail": "约2km · 地势略高",
+          "lat": 40.95,
+          "lng": 100.29
+        },
+        {
+          "name": "巴彦宝格德狼心山",
+          "type": "外围",
+          "detail": "远眺发射场全景",
+          "lat": 40.92,
+          "lng": 100.24
+        }
+      ],
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          39.9375,
+          100.1208
+        ],
+        [
+          31.4083,
+          97.625
+        ],
+        [
+          31.4083,
+          97.625
+        ]
+      ],
+      "label": "2026年11月07日 07:35 · Ceres-2",
+      "launchTime": "2026-11-06T23:28:00.000Z",
+      "sunAlt": -3.26,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -3.3°）· 可拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            40.25,
+            100.0
+          ],
+          [
+            40.21667,
+            100.36667
+          ],
+          [
+            39.61667,
+            100.23333
+          ],
+          [
+            39.66667,
+            99.88333
+          ]
+        ],
+        [
+          [
+            30.76667,
+            97.65
+          ],
+          [
+            30.83333,
+            97.3
+          ],
+          [
+            32.05,
+            97.6
+          ],
+          [
+            31.98333,
+            97.95
+          ]
+        ],
+        [
+          [
+            30.76667,
+            97.65
+          ],
+          [
+            30.83333,
+            97.3
+          ],
+          [
+            32.05,
+            97.6
+          ],
+          [
+            31.98333,
+            97.95
           ]
         ]
       ],
