@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-03T03:41:38+08:00",
+  "fetched_at": "2026-11-03T10:06:40+08:00",
   "records": [
-    {
-      "code": "Long March 3B/E · TJSW-14",
-      "site": "西昌卫星发射中心",
-      "color": "#1F618D",
-      "path": [
-        [
-          28.2463,
-          102.027
-        ],
-        [
-          28.2463,
-          102.027
-        ]
-      ],
-      "label": "01-23 23:32 · 白天发射 · Long March 3B/E · TJSW-14",
-      "launchTime": "2025-01-23T15:32:00Z",
-      "sunAlt": -62.94,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -62.9°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 8A · SatNet LEO Group 02 (Demo Flight)",
       "site": "文昌航天发射场",
@@ -3000,6 +2980,26 @@
       "sunAlt": 43.72,
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 43.7°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Kinetica 2 · SpaceSail Polar Group #17",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "11-03 08:15 · 白天发射 · Kinetica 2 · SpaceSail Polar Group #17",
+      "launchTime": "2026-11-03T00:15:00Z",
+      "sunAlt": 3.32,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 3.3°）· 无法拍摄火箭云"
     }
   ]
 }

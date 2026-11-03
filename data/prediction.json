@@ -1,103 +1,61 @@
 {
-  "fetched_at": "2026-11-03T03:41:38+08:00",
+  "fetched_at": "2026-11-03T10:06:40+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Kinetica 2 · SpaceSail Polar Group TBD?",
+    "code": "Kinetica 2 · SpaceSail Polar Group #17",
     "site": "酒泉卫星发射中心",
-    "site_lat": 28.2463,
-    "site_lng": 102.027,
-    "mission_type": "地球同步轨道卫星",
+    "site_lat": 40.967,
+    "site_lng": 100.267,
+    "mission_type": "Communications",
     "window_start": "2026-11-03T08:05:00+08:00",
-    "window_end": "2026-11-03T08:46:00+08:00",
-    "est_t0": "2026-11-03T07:47:00+08:00",
-    "debris_zone": "落区 (32.62°N, 99.04°E)",
-    "debris_lat": 32.625,
-    "debris_lng": 99.0417,
-    "direction": "西北",
+    "window_end": "2026-11-03T08:33:00+08:00",
+    "est_t0": "2026-11-03T07:57:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 40.967,
+    "debris_lng": 100.267,
+    "direction": "待定",
     "twilight_favorable": false,
     "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
       {
-        "name": "青杠坝山坡观景台",
-        "type": "观景台",
-        "detail": "距发射场约3km · 远眺发射场",
-        "lat": 28.235,
-        "lng": 102.045
+        "name": "45号观礼点",
+        "type": "官方",
+        "detail": "约2km · 正对发射工位",
+        "lat": 40.955,
+        "lng": 100.285
       },
       {
-        "name": "奔月广场",
-        "type": "展示区",
-        "detail": "航天主题展示区",
-        "lat": 28.25,
-        "lng": 102.05
+        "name": "96号观礼点",
+        "type": "官方",
+        "detail": "约2km · 地势略高",
+        "lat": 40.95,
+        "lng": 100.29
       },
       {
-        "name": "南山坡机位",
-        "type": "机位",
-        "detail": "历史最佳机位 · 俯拍发射场",
-        "lat": 28.238,
-        "lng": 102.02
+        "name": "巴彦宝格德狼心山",
+        "type": "外围",
+        "detail": "远眺发射场全景",
+        "lat": 40.92,
+        "lng": 100.24
       }
     ],
     "path": [
       [
-        28.2463,
-        102.027
+        40.967,
+        100.267
       ],
       [
-        30.3667,
-        98.9042
-      ],
-      [
-        32.625,
-        99.0417
+        40.967,
+        100.267
       ]
     ],
-    "label": "2026年11月03日 08:10 · Kinetica 2",
-    "launchTime": "2026-11-03T00:05:00.000Z",
-    "sunAlt": 11.74,
+    "label": "2026年11月03日 08:15 · Kinetica 2",
+    "launchTime": "2026-11-03T00:15:00.000Z",
+    "sunAlt": 3.32,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 11.7°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 3.3°）· 无法拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          33.06667,
-          98.81667
-        ],
-        [
-          33.01667,
-          99.36667
-        ],
-        [
-          32.18333,
-          99.26667
-        ],
-        [
-          32.23333,
-          98.71667
-        ]
-      ],
-      [
-        [
-          30.65,
-          98.63333
-        ],
-        [
-          30.6,
-          99.28333
-        ],
-        [
-          30.08333,
-          99.11667
-        ],
-        [
-          30.13333,
-          98.58333
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
     {
@@ -205,62 +163,6 @@
         ]
       ],
       "source": "DAIP NOTAM"
-    },
-    {
-      "code": "Unconfirmed Vehicle",
-      "site": "酒泉卫星发射中心",
-      "site_lat": 40.967,
-      "site_lng": 100.267,
-      "mission_type": "待定",
-      "window_start": "2026-11-05T05:00:00+08:00",
-      "window_end": "2026-11-05T05:00:00+08:00",
-      "est_t0": "2026-11-05T04:42:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 40.967,
-      "debris_lng": 100.267,
-      "direction": "待定",
-      "twilight_favorable": false,
-      "note": "深夜发射，高空进入地影，无法拍摄",
-      "spots": [
-        {
-          "name": "45号观礼点",
-          "type": "官方",
-          "detail": "约2km · 正对发射工位",
-          "lat": 40.955,
-          "lng": 100.285
-        },
-        {
-          "name": "96号观礼点",
-          "type": "官方",
-          "detail": "约2km · 地势略高",
-          "lat": 40.95,
-          "lng": 100.29
-        },
-        {
-          "name": "巴彦宝格德狼心山",
-          "type": "外围",
-          "detail": "远眺发射场全景",
-          "lat": 40.92,
-          "lng": 100.24
-        }
-      ],
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "2026年11月05日 05:00 · Unconfirmed Vehicle",
-      "launchTime": "2026-11-04T21:00:00.000Z",
-      "sunAlt": -33.11,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -33.1°）· 无法拍摄火箭云",
-      "status": "go",
-      "source": "RocketLaunch.Live"
     },
     {
       "code": "A5624/26",
