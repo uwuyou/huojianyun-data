@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-05T23:43:21+08:00",
+  "fetched_at": "2026-11-06T05:51:51+08:00",
   "records": [
-    {
-      "code": "Long March 8A · SatNet LEO Group 02 (Demo Flight)",
-      "site": "文昌航天发射场",
-      "color": "#C0392B",
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "02-11 17:30 · 白天发射 · Long March 8A · SatNet LEO Group 02 (Demo Flight)",
-      "launchTime": "2025-02-11T09:30:00Z",
-      "sunAlt": 13.55,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 13.6°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 3B/E · ChinaSat 10R",
       "site": "西昌卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": 3.32,
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 3.3°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 2C · Yaogan 51-07 to 09",
+      "site": "西昌卫星发射中心",
+      "color": "#1F618D",
+      "path": [
+        [
+          28.2463,
+          102.027
+        ],
+        [
+          28.2463,
+          102.027
+        ]
+      ],
+      "label": "11-05 23:58 · 白天发射 · Long March 2C · Yaogan 51-07 to 09",
+      "launchTime": "2026-11-05T15:58:00Z",
+      "sunAlt": -71.66,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -71.7°）· 无法拍摄火箭云"
     }
   ]
 }
