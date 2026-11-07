@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-07T10:15:37+08:00",
+  "fetched_at": "2026-11-07T17:07:11+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Ceres-2 · 4 satellites",
@@ -55,7 +55,7 @@
     "twilight": true,
     "twilightDesc": "晨昏阶段（太阳高度角 -4.2°）· 可拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
