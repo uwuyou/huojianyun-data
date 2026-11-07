@@ -1,19 +1,19 @@
 {
-  "fetched_at": "2026-11-07T06:17:39+08:00",
+  "fetched_at": "2026-11-07T10:15:37+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Ceres-2 · Unknown Payload",
+    "code": "Ceres-2 · 4 satellites",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
-    "mission_type": "载人航天/商业发射",
+    "mission_type": "Earth Science",
     "window_start": "2026-11-07T07:28:00+08:00",
-    "window_end": "2026-11-07T07:57:00+08:00",
-    "est_t0": "2026-11-07T07:10:00+08:00",
-    "debris_zone": "落区 (31.41°N, 97.62°E)",
-    "debris_lat": 31.4083,
-    "debris_lng": 97.625,
-    "direction": "南",
+    "window_end": "2026-11-07T07:50:00+08:00",
+    "est_t0": "2026-11-07T07:19:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 40.967,
+    "debris_lng": 100.267,
+    "direction": "待定",
     "twilight_favorable": true,
     "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
     "spots": [
@@ -45,81 +45,17 @@
         100.267
       ],
       [
-        39.9375,
-        100.1208
-      ],
-      [
-        31.4083,
-        97.625
-      ],
-      [
-        31.4083,
-        97.625
+        40.967,
+        100.267
       ]
     ],
-    "label": "2026年11月07日 07:35 · Ceres-2",
-    "launchTime": "2026-11-06T23:28:00.000Z",
-    "sunAlt": -3.26,
+    "label": "2026年11月07日 07:37 · Ceres-2",
+    "launchTime": "2026-11-06T23:37:00.000Z",
+    "sunAlt": -4.24,
     "twilight": true,
-    "twilightDesc": "晨昏阶段（太阳高度角 -3.3°）· 可拍摄火箭云",
+    "twilightDesc": "晨昏阶段（太阳高度角 -4.2°）· 可拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          40.25,
-          100.0
-        ],
-        [
-          40.21667,
-          100.36667
-        ],
-        [
-          39.61667,
-          100.23333
-        ],
-        [
-          39.66667,
-          99.88333
-        ]
-      ],
-      [
-        [
-          30.76667,
-          97.65
-        ],
-        [
-          30.83333,
-          97.3
-        ],
-        [
-          32.05,
-          97.6
-        ],
-        [
-          31.98333,
-          97.95
-        ]
-      ],
-      [
-        [
-          30.76667,
-          97.65
-        ],
-        [
-          30.83333,
-          97.3
-        ],
-        [
-          32.05,
-          97.6
-        ],
-        [
-          31.98333,
-          97.95
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2 + RocketLaunch.Live"
   },
   "upcoming": [
     {

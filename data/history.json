@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-07T06:17:39+08:00",
+  "fetched_at": "2026-11-07T10:15:37+08:00",
   "records": [
-    {
-      "code": "Long March 3B/E · ChinaSat 10R",
-      "site": "西昌卫星发射中心",
-      "color": "#1F618D",
-      "path": [
-        [
-          28.2463,
-          102.027
-        ],
-        [
-          28.2463,
-          102.027
-        ]
-      ],
-      "label": "02-22 20:11 · 傍晚发射 · Long March 3B/E · ChinaSat 10R",
-      "launchTime": "2025-02-22T12:11:00Z",
-      "sunAlt": -14.68,
-      "twilight": true,
-      "twilightDesc": "晨昏阶段（太阳高度角 -14.7°）· 可拍摄火箭云"
-    },
     {
       "code": "Long March 2C · SuperView Neo 1-03 & 04",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -71.66,
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -71.7°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Ceres-2 · 4 satellites",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "11-07 07:37 · 傍晚发射 · Ceres-2 · 4 satellites",
+      "launchTime": "2026-11-06T23:37:00Z",
+      "sunAlt": -4.24,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -4.2°）· 可拍摄火箭云"
     }
   ]
 }
