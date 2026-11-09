@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-11-09T06:23:31+08:00",
-  "source": "DAIP NOTAM + RocketLaunch.Live",
+  "fetched_at": "2026-11-09T09:52:21+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 12 · SatNet LEO Group TBD?",
+    "code": "Long March 12 · SatNet LEO Group 29",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
@@ -55,7 +55,7 @@
     "twilight": false,
     "twilightDesc": "深夜（太阳高度角 -32.3°）· 无法拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
