@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-09T09:52:21+08:00",
+  "fetched_at": "2026-11-09T17:31:03+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 12 · SatNet LEO Group 29",
@@ -368,6 +368,75 @@
         ]
       ],
       "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    },
+    {
+      "code": "A5824/26",
+      "site": "太原卫星发射中心",
+      "site_lat": 38.849,
+      "site_lng": 111.608,
+      "mission_type": "太阳同步轨道卫星",
+      "window_start": "2026-11-13T03:44:00+08:00",
+      "window_end": "2026-11-13T04:29:00+08:00",
+      "est_t0": "2026-11-13T03:26:00+08:00",
+      "debris_zone": "落区 (36.35°N, 122.25°E)",
+      "debris_lat": 36.3458,
+      "debris_lng": 122.2542,
+      "direction": "东",
+      "twilight_favorable": false,
+      "note": "深夜发射，高空进入地影，无法拍摄",
+      "spots": [
+        {
+          "name": "岢岚县团城村",
+          "type": "体验点",
+          "detail": "毗邻发射中心 · 尾迹远眺",
+          "lat": 38.79,
+          "lng": 111.65
+        },
+        {
+          "name": "岢岚周边高点",
+          "type": "野外",
+          "detail": "尾迹云+山脊组合",
+          "lat": 38.81,
+          "lng": 111.58
+        }
+      ],
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          36.3458,
+          122.2542
+        ]
+      ],
+      "label": "2026年11月13日 03:44 · A5824/26",
+      "launchTime": "2026-11-12T19:44:00.000Z",
+      "sunAlt": -36.43,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -36.4°）· 无法拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            36.36667,
+            121.56667
+          ],
+          [
+            36.73333,
+            121.73333
+          ],
+          [
+            36.3,
+            122.95
+          ],
+          [
+            35.98333,
+            122.76667
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM"
     },
     {
       "code": "Long March 8A · SatNet LEO Group TBD?",
