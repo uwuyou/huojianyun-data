@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T15:01:28+08:00",
+  "fetched_at": "2026-11-11T23:32:12+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 8A · SatNet LEO Group TBD?",
@@ -67,18 +67,18 @@
   },
   "upcoming": [
     {
-      "code": "Long March 2D · Unknown Payload",
+      "code": "Long March 2D · CAS Pathfinder-1",
       "site": "酒泉卫星发射中心",
       "site_lat": 40.967,
       "site_lng": 100.267,
-      "mission_type": "载人航天/商业发射",
+      "mission_type": "Technology",
       "window_start": "2026-11-11T19:32:00+08:00",
       "window_end": "2026-11-11T20:05:00+08:00",
-      "est_t0": "2026-11-11T19:14:00+08:00",
-      "debris_zone": "落区 (35.55°N, 98.86°E)",
-      "debris_lat": 35.5542,
-      "debris_lng": 98.8625,
-      "direction": "南",
+      "est_t0": "2026-11-11T19:23:00+08:00",
+      "debris_zone": "落区详情待官方公布",
+      "debris_lat": 40.967,
+      "debris_lng": 100.267,
+      "direction": "待定",
       "twilight_favorable": false,
       "note": "深夜发射，高空进入地影，无法拍摄",
       "spots": [
@@ -110,37 +110,17 @@
           100.267
         ],
         [
-          35.5542,
-          98.8625
+          40.967,
+          100.267
         ]
       ],
-      "label": "2026年11月11日 19:40 · Long March 2D",
-      "launchTime": "2026-11-11T11:32:00.000Z",
-      "sunAlt": -19.7,
+      "label": "2026年11月11日 19:41 · Long March 2D",
+      "launchTime": "2026-11-11T11:41:00.000Z",
+      "sunAlt": -18.3,
       "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -19.7°）· 无法拍摄火箭云",
+      "twilightDesc": "深夜（太阳高度角 -18.3°）· 无法拍摄火箭云",
       "status": "go",
-      "debris_polygons": [
-        [
-          [
-            35.76667,
-            98.8
-          ],
-          [
-            35.71667,
-            99.01667
-          ],
-          [
-            35.35,
-            98.93333
-          ],
-          [
-            35.38333,
-            98.7
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+      "source": "Launch Library 2"
     },
     {
       "code": "A5824/26",

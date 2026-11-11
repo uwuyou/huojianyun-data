@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-11T15:01:28+08:00",
+  "fetched_at": "2026-11-11T23:32:12+08:00",
   "records": [
-    {
-      "code": "Kuaizhou 1A · Unknown Payload",
-      "site": "酒泉卫星发射中心",
-      "color": "#D68910",
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "03-01 18:00 · 白天发射 · Kuaizhou 1A · Unknown Payload",
-      "launchTime": "2025-03-01T10:00:00Z",
-      "sunAlt": 11.84,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 11.8°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 3B/E · TJSW-15",
       "site": "西昌卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -32.31,
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -32.3°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 2D · CAS Pathfinder-1",
+      "site": "酒泉卫星发射中心",
+      "color": "#D68910",
+      "path": [
+        [
+          40.967,
+          100.267
+        ],
+        [
+          40.967,
+          100.267
+        ]
+      ],
+      "label": "11-11 19:41 · 白天发射 · Long March 2D · CAS Pathfinder-1",
+      "launchTime": "2026-11-11T11:41:00Z",
+      "sunAlt": -18.3,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -18.3°）· 无法拍摄火箭云"
     }
   ]
 }
