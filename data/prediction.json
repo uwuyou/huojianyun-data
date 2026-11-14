@@ -1,6 +1,6 @@
 {
-  "fetched_at": "2026-11-14T06:47:06+08:00",
-  "source": "DAIP NOTAM + Launch Library 2",
+  "fetched_at": "2026-11-14T10:58:09+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 8A · SatNet LEO Group TBD?",
     "site": "文昌航天发射场",
@@ -297,7 +297,7 @@
           ]
         ]
       ],
-      "source": "DAIP NOTAM + Launch Library 2"
+      "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "Long March 12 · SatNet LEO Group TBD?",
