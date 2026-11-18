@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-18T18:34:55+08:00",
+  "fetched_at": "2026-11-19T03:18:32+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 8A",
@@ -226,7 +226,7 @@
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 30.9°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2"
+      "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "A5992/26 + A5993/26",
