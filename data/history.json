@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-19T03:18:32+08:00",
+  "fetched_at": "2026-11-19T09:23:43+08:00",
   "records": [
-    {
-      "code": "Long March 3B/E · TJSW-15",
-      "site": "西昌卫星发射中心",
-      "color": "#1F618D",
-      "path": [
-        [
-          28.2463,
-          102.027
-        ],
-        [
-          28.2463,
-          102.027
-        ]
-      ],
-      "label": "03-10 01:17 · 白天发射 · Long March 3B/E · TJSW-15",
-      "launchTime": "2025-03-09T17:17:00Z",
-      "sunAlt": -66.08,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -66.1°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 8 · SpaceSail Polar Group #5",
       "site": "文昌航天发射场",
@@ -3000,6 +2980,26 @@
       "sunAlt": -18.3,
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -18.3°）· 无法拍摄火箭云"
+    },
+    {
+      "code": "Long March 2D · Shijian 24",
+      "site": "太原卫星发射中心",
+      "color": "#1E8449",
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          38.849,
+          111.608
+        ]
+      ],
+      "label": "11-19 06:51 · 傍晚发射 · Long March 2D · Shijian 24",
+      "launchTime": "2026-11-18T22:51:00Z",
+      "sunAlt": -6.04,
+      "twilight": true,
+      "twilightDesc": "晨昏阶段（太阳高度角 -6.0°）· 可拍摄火箭云"
     }
   ]
 }
