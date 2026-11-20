@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-20T17:01:21+08:00",
+  "fetched_at": "2026-11-21T01:56:54+08:00",
   "records": [
-    {
-      "code": "Long March 8 · SpaceSail Polar Group #5",
-      "site": "文昌航天发射场",
-      "color": "#C0392B",
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "03-12 00:38 · 白天发射 · Long March 8 · SpaceSail Polar Group #5",
-      "launchTime": "2025-03-11T16:38:00Z",
-      "sunAlt": -73.84,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -73.8°）· 无法拍摄火箭云"
-    },
     {
       "code": "Long March 2D · SuperView Neo 3-02",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -6.04,
       "twilight": true,
       "twilightDesc": "晨昏阶段（太阳高度角 -6.0°）· 可拍摄火箭云"
+    },
+    {
+      "code": "Long March 8A · SatNet LEO Group 30",
+      "site": "文昌航天发射场",
+      "color": "#C0392B",
+      "path": [
+        [
+          19.6143,
+          110.9512
+        ],
+        [
+          19.6143,
+          110.9512
+        ]
+      ],
+      "label": "11-20 19:59 · 白天发射 · Long March 8A · SatNet LEO Group 30",
+      "launchTime": "2026-11-20T11:59:00Z",
+      "sunAlt": -28.49,
+      "twilight": false,
+      "twilightDesc": "深夜（太阳高度角 -28.5°）· 无法拍摄火箭云"
     }
   ]
 }
