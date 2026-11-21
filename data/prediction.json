@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T07:55:33+08:00",
+  "fetched_at": "2026-11-21T14:47:43+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 8A · SatNet LEO Group 30",
@@ -67,51 +67,58 @@
   },
   "upcoming": [
     {
-      "code": "Unconfirmed Vehicle",
-      "site": "太原卫星发射中心",
-      "site_lat": 38.849,
-      "site_lng": 111.608,
+      "code": "Long March 12",
+      "site": "文昌航天发射场",
+      "site_lat": 19.6143,
+      "site_lng": 110.9512,
       "mission_type": "待定",
-      "window_start": "2026-11-21T11:50:00+08:00",
-      "window_end": "2026-11-21T11:50:00+08:00",
-      "est_t0": "2026-11-21T11:32:00+08:00",
+      "window_start": "2026-11-24T15:00:00+08:00",
+      "window_end": "2026-11-24T15:00:00+08:00",
+      "est_t0": "2026-11-24T14:42:00+08:00",
       "debris_zone": "落区详情待官方公布",
-      "debris_lat": 38.849,
-      "debris_lng": 111.608,
+      "debris_lat": 19.6143,
+      "debris_lng": 110.9512,
       "direction": "待定",
       "twilight_favorable": false,
       "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
       "spots": [
         {
-          "name": "岢岚县团城村",
-          "type": "体验点",
-          "detail": "毗邻发射中心 · 尾迹远眺",
-          "lat": 38.79,
-          "lng": 111.65
+          "name": "淇水湾沙滩",
+          "type": "免费",
+          "detail": "距发射塔约3km · 视野开阔",
+          "lat": 19.633,
+          "lng": 110.967
         },
         {
-          "name": "岢岚周边高点",
-          "type": "野外",
-          "detail": "尾迹云+山脊组合",
-          "lat": 38.81,
-          "lng": 111.58
+          "name": "富荣公寓楼顶",
+          "type": "白名单",
+          "detail": "约3.5km · 正对发射塔架",
+          "lat": 19.6345,
+          "lng": 110.9685
+        },
+        {
+          "name": "铜鼓岭",
+          "type": "远距",
+          "detail": "约8km · 尾迹云+海景组合",
+          "lat": 19.668,
+          "lng": 110.983
         }
       ],
       "path": [
         [
-          38.849,
-          111.608
+          19.6143,
+          110.9512
         ],
         [
-          38.849,
-          111.608
+          19.6143,
+          110.9512
         ]
       ],
-      "label": "2026年11月21日 11:50 · Unconfirmed Vehicle",
-      "launchTime": "2026-11-21T03:50:00.000Z",
-      "sunAlt": 30.94,
+      "label": "2026年11月24日 15:00 · Long March 12",
+      "launchTime": "2026-11-24T07:00:00.000Z",
+      "sunAlt": 34.48,
       "twilight": false,
-      "twilightDesc": "白天（太阳高度角 30.9°）· 无法拍摄火箭云",
+      "twilightDesc": "白天（太阳高度角 34.5°）· 无法拍摄火箭云",
       "status": "go",
       "source": "RocketLaunch.Live"
     },
