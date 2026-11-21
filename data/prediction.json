@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-11-21T14:47:43+08:00",
-  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
+  "fetched_at": "2026-11-21T23:12:52+08:00",
+  "source": "DAIP NOTAM + Launch Library 2",
   "next_launch": {
-    "code": "Long March 8A · SatNet LEO Group 30",
+    "code": "A5965/26",
     "site": "文昌航天发射场",
     "site_lat": 19.6143,
     "site_lng": 110.9512,
     "mission_type": "海上发射 · 低倾角轨道",
-    "window_start": "2026-11-11T00:00:00+08:00",
-    "window_end": "2026-11-23T00:00:00+08:00",
-    "est_t0": "2026-11-10T23:42:00+08:00",
+    "window_start": "2026-11-15T00:00:00+08:00",
+    "window_end": "2026-11-22T00:00:00+08:00",
+    "est_t0": "2026-11-14T23:42:00+08:00",
     "debris_zone": "南海 · 落区 (22.61°N, 113.97°E)",
     "debris_lat": 22.6103,
     "debris_lng": 113.9661,
     "direction": "东北 · 出海方向",
     "twilight_favorable": false,
-    "note": "深夜发射，高空进入地影，无法拍摄",
+    "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
       {
         "name": "淇水湾沙滩",
@@ -49,11 +49,11 @@
         113.9661
       ]
     ],
-    "label": "2026年11月20日 19:59 · Long March 8A",
-    "launchTime": "2026-11-10T16:00:00.000Z",
-    "sunAlt": -84.91,
+    "label": "2026年11月15日 00:00 · A5965/26",
+    "launchTime": "2026-11-14T16:00:00.000Z",
+    "sunAlt": 50.92,
     "twilight": false,
-    "twilightDesc": "深夜（太阳高度角 -84.9°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 50.9°）· 无法拍摄火箭云",
     "status": "go",
     "debris_polygons": [
       [
@@ -63,65 +63,9 @@
         ]
       ]
     ],
-    "source": "DAIP NOTAM + Launch Library 2"
+    "source": "DAIP NOTAM"
   },
   "upcoming": [
-    {
-      "code": "Long March 12",
-      "site": "文昌航天发射场",
-      "site_lat": 19.6143,
-      "site_lng": 110.9512,
-      "mission_type": "待定",
-      "window_start": "2026-11-24T15:00:00+08:00",
-      "window_end": "2026-11-24T15:00:00+08:00",
-      "est_t0": "2026-11-24T14:42:00+08:00",
-      "debris_zone": "落区详情待官方公布",
-      "debris_lat": 19.6143,
-      "debris_lng": 110.9512,
-      "direction": "待定",
-      "twilight_favorable": false,
-      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
-      "spots": [
-        {
-          "name": "淇水湾沙滩",
-          "type": "免费",
-          "detail": "距发射塔约3km · 视野开阔",
-          "lat": 19.633,
-          "lng": 110.967
-        },
-        {
-          "name": "富荣公寓楼顶",
-          "type": "白名单",
-          "detail": "约3.5km · 正对发射塔架",
-          "lat": 19.6345,
-          "lng": 110.9685
-        },
-        {
-          "name": "铜鼓岭",
-          "type": "远距",
-          "detail": "约8km · 尾迹云+海景组合",
-          "lat": 19.668,
-          "lng": 110.983
-        }
-      ],
-      "path": [
-        [
-          19.6143,
-          110.9512
-        ],
-        [
-          19.6143,
-          110.9512
-        ]
-      ],
-      "label": "2026年11月24日 15:00 · Long March 12",
-      "launchTime": "2026-11-24T07:00:00.000Z",
-      "sunAlt": 34.48,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 34.5°）· 无法拍摄火箭云",
-      "status": "go",
-      "source": "RocketLaunch.Live"
-    },
     {
       "code": "A6094/26 + A6094/26 + A6094/26 + A6095/26 + A6094/26",
       "site": "太原卫星发射中心",
