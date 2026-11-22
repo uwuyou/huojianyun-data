@@ -1,21 +1,21 @@
 {
-  "fetched_at": "2026-11-23T01:00:11+08:00",
-  "source": "DAIP NOTAM + RocketLaunch.Live",
+  "fetched_at": "2026-11-23T06:42:42+08:00",
+  "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2F · Shenzhou 24",
     "site": "酒泉卫星发射中心",
     "site_lat": 40.967,
     "site_lng": 100.267,
     "mission_type": "待定",
-    "window_start": "2026-11-23T01:00:48+08:00",
-    "window_end": "2026-11-23T01:00:48+08:00",
-    "est_t0": "2026-11-23T00:42:48+08:00",
+    "window_start": "2026-11-23T06:42:52+08:00",
+    "window_end": "2026-11-23T06:42:52+08:00",
+    "est_t0": "2026-11-23T06:24:52+08:00",
     "debris_zone": "落区详情待官方公布",
     "debris_lat": 40.967,
     "debris_lng": 100.267,
     "direction": "待定",
-    "twilight_favorable": false,
-    "note": "深夜发射，高空进入地影，无法拍摄",
+    "twilight_favorable": true,
+    "note": "接近晨昏时段，高空尾迹可能被阳光照亮，适合尾迹云/火箭云拍摄",
     "spots": [
       {
         "name": "45号观礼点",
@@ -49,11 +49,11 @@
         100.267
       ]
     ],
-    "label": "2026年11月23日 01:00 · Long March 2F · Shenzhou 24",
-    "launchTime": "2026-11-22T17:00:48.000Z",
-    "sunAlt": -69.15,
-    "twilight": false,
-    "twilightDesc": "深夜（太阳高度角 -69.1°）· 无法拍摄火箭云",
+    "label": "2026年11月23日 06:42 · Long March 2F · Shenzhou 24",
+    "launchTime": "2026-11-22T22:42:52.000Z",
+    "sunAlt": -17.21,
+    "twilight": true,
+    "twilightDesc": "晨昏阶段（太阳高度角 -17.2°）· 可拍摄火箭云",
     "status": "go",
     "source": "RocketLaunch.Live"
   },
