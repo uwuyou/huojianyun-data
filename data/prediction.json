@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-23T11:37:15+08:00",
+  "fetched_at": "2026-11-23T22:15:54+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "Long March 2F · Shenzhou 24",
@@ -7,15 +7,15 @@
     "site_lat": 40.967,
     "site_lng": 100.267,
     "mission_type": "待定",
-    "window_start": "2026-11-23T11:37:25+08:00",
-    "window_end": "2026-11-23T11:37:25+08:00",
-    "est_t0": "2026-11-23T11:19:25+08:00",
+    "window_start": "2026-11-23T22:16:09+08:00",
+    "window_end": "2026-11-23T22:16:09+08:00",
+    "est_t0": "2026-11-23T21:58:09+08:00",
     "debris_zone": "落区详情待官方公布",
     "debris_lat": 40.967,
     "debris_lng": 100.267,
     "direction": "待定",
     "twilight_favorable": false,
-    "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
+    "note": "深夜发射，高空进入地影，无法拍摄",
     "spots": [
       {
         "name": "45号观礼点",
@@ -49,11 +49,11 @@
         100.267
       ]
     ],
-    "label": "2026年11月23日 11:37 · Long March 2F · Shenzhou 24",
-    "launchTime": "2026-11-23T03:37:25.000Z",
-    "sunAlt": 25.48,
+    "label": "2026年11月23日 22:16 · Long March 2F · Shenzhou 24",
+    "launchTime": "2026-11-23T14:16:09.000Z",
+    "sunAlt": -48.68,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 25.5°）· 无法拍摄火箭云",
+    "twilightDesc": "深夜（太阳高度角 -48.7°）· 无法拍摄火箭云",
     "status": "go",
     "source": "RocketLaunch.Live"
   },
@@ -432,6 +432,75 @@
         ]
       ],
       "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    },
+    {
+      "code": "A6149/26",
+      "site": "太原卫星发射中心",
+      "site_lat": 38.849,
+      "site_lng": 111.608,
+      "mission_type": "太阳同步轨道卫星",
+      "window_start": "2026-11-27T12:59:00+08:00",
+      "window_end": "2026-11-27T13:28:00+08:00",
+      "est_t0": "2026-11-27T12:41:00+08:00",
+      "debris_zone": "落区 (39.06°N, 109.80°E)",
+      "debris_lat": 39.0583,
+      "debris_lng": 109.8042,
+      "direction": "西",
+      "twilight_favorable": false,
+      "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
+      "spots": [
+        {
+          "name": "岢岚县团城村",
+          "type": "体验点",
+          "detail": "毗邻发射中心 · 尾迹远眺",
+          "lat": 38.79,
+          "lng": 111.65
+        },
+        {
+          "name": "岢岚周边高点",
+          "type": "野外",
+          "detail": "尾迹云+山脊组合",
+          "lat": 38.81,
+          "lng": 111.58
+        }
+      ],
+      "path": [
+        [
+          38.849,
+          111.608
+        ],
+        [
+          39.0583,
+          109.8042
+        ]
+      ],
+      "label": "2026年11月27日 12:59 · A6149/26",
+      "launchTime": "2026-11-27T04:59:00.000Z",
+      "sunAlt": 28.87,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 28.9°）· 无法拍摄火箭云",
+      "status": "go",
+      "debris_polygons": [
+        [
+          [
+            39.21667,
+            109.53333
+          ],
+          [
+            39.15,
+            110.11667
+          ],
+          [
+            38.9,
+            110.08333
+          ],
+          [
+            38.96667,
+            109.48333
+          ]
+        ]
+      ],
+      "source": "DAIP NOTAM"
     },
     {
       "code": "Long March 6A · Unknown Payload",
