@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-24T20:15:14+08:00",
+  "fetched_at": "2026-11-25T06:41:51+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
     "code": "A6094/26 + A6094/26 + A6094/26 + A6095/26 + A6094/26",
@@ -493,7 +493,7 @@
       "twilight": false,
       "twilightDesc": "深夜（太阳高度角 -43.6°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2"
+      "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "A6107/26",
@@ -618,7 +618,7 @@
       "twilight": false,
       "twilightDesc": "白天（太阳高度角 29.3°）· 无法拍摄火箭云",
       "status": "go",
-      "source": "Launch Library 2"
+      "source": "Launch Library 2 + RocketLaunch.Live"
     },
     {
       "code": "A6105/26 + A6106/26",
