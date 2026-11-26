@@ -1,26 +1,6 @@
 {
-  "fetched_at": "2026-11-26T16:47:33+08:00",
+  "fetched_at": "2026-11-27T02:54:35+08:00",
   "records": [
-    {
-      "code": "Ceres-1 · 8 satellites",
-      "site": "酒泉卫星发射中心",
-      "color": "#D68910",
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          40.967,
-          100.267
-        ]
-      ],
-      "label": "03-17 16:07 · 白天发射 · Ceres-1 · 8 satellites",
-      "launchTime": "2025-03-17T08:07:00Z",
-      "sunAlt": 34.35,
-      "twilight": false,
-      "twilightDesc": "白天（太阳高度角 34.3°）· 无法拍摄火箭云"
-    },
     {
       "code": "Ceres-1 · Yunyao-1 43-48",
       "site": "酒泉卫星发射中心",
@@ -3000,6 +2980,26 @@
       "sunAlt": -0.56,
       "twilight": true,
       "twilightDesc": "晨昏阶段（太阳高度角 -0.6°）· 可拍摄火箭云"
+    },
+    {
+      "code": "Long March 2D · Yaogan 49 Group 01",
+      "site": "西昌卫星发射中心",
+      "color": "#1F618D",
+      "path": [
+        [
+          28.2463,
+          102.027
+        ],
+        [
+          28.2463,
+          102.027
+        ]
+      ],
+      "label": "11-26 17:38 · 白天发射 · Long March 2D · Yaogan 49 Group 01",
+      "launchTime": "2026-11-26T09:38:00Z",
+      "sunAlt": 6.74,
+      "twilight": false,
+      "twilightDesc": "白天（太阳高度角 6.7°）· 无法拍摄火箭云"
     }
   ]
 }

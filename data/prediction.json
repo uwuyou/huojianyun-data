@@ -1,103 +1,61 @@
 {
-  "fetched_at": "2026-11-26T16:47:33+08:00",
+  "fetched_at": "2026-11-27T02:54:35+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 2D · Unknown Payload",
+    "code": "Long March 2D · Yaogan 49 Group 01",
     "site": "西昌卫星发射中心",
-    "site_lat": 19.6143,
-    "site_lng": 110.9512,
-    "mission_type": "海上发射 · 低倾角轨道",
+    "site_lat": 28.2463,
+    "site_lng": 102.027,
+    "mission_type": "Government/Top Secret",
     "window_start": "2026-11-26T17:30:00+08:00",
-    "window_end": "2026-11-26T17:57:00+08:00",
-    "est_t0": "2026-11-26T17:12:00+08:00",
-    "debris_zone": "落区 (26.82°N, 107.72°E)",
-    "debris_lat": 26.8208,
-    "debris_lng": 107.7167,
-    "direction": "北",
+    "window_end": "2026-11-26T17:52:00+08:00",
+    "est_t0": "2026-11-26T17:20:00+08:00",
+    "debris_zone": "落区详情待官方公布",
+    "debris_lat": 28.2463,
+    "debris_lng": 102.027,
+    "direction": "待定",
     "twilight_favorable": false,
     "note": "白天发射，高空尾迹不被阳光照亮，通常无法形成可见火箭云",
     "spots": [
       {
-        "name": "淇水湾沙滩",
-        "type": "免费",
-        "detail": "距发射塔约3km · 视野开阔",
-        "lat": 19.633,
-        "lng": 110.967
+        "name": "青杠坝山坡观景台",
+        "type": "观景台",
+        "detail": "距发射场约3km · 远眺发射场",
+        "lat": 28.235,
+        "lng": 102.045
       },
       {
-        "name": "富荣公寓楼顶",
-        "type": "白名单",
-        "detail": "约3.5km · 正对发射塔架",
-        "lat": 19.6345,
-        "lng": 110.9685
+        "name": "奔月广场",
+        "type": "展示区",
+        "detail": "航天主题展示区",
+        "lat": 28.25,
+        "lng": 102.05
       },
       {
-        "name": "铜鼓岭",
-        "type": "远距",
-        "detail": "约8km · 尾迹云+海景组合",
-        "lat": 19.668,
-        "lng": 110.983
+        "name": "南山坡机位",
+        "type": "机位",
+        "detail": "历史最佳机位 · 俯拍发射场",
+        "lat": 28.238,
+        "lng": 102.02
       }
     ],
     "path": [
       [
-        19.6143,
-        110.9512
+        28.2463,
+        102.027
       ],
       [
-        25.1875,
-        112.1333
-      ],
-      [
-        26.8208,
-        107.7167
+        28.2463,
+        102.027
       ]
     ],
-    "label": "2026年11月26日 17:35 · Long March 2D",
-    "launchTime": "2026-11-26T09:30:00.000Z",
-    "sunAlt": 1.93,
+    "label": "2026年11月26日 17:38 · Long March 2D",
+    "launchTime": "2026-11-26T09:38:00.000Z",
+    "sunAlt": 6.74,
     "twilight": false,
-    "twilightDesc": "白天（太阳高度角 1.9°）· 无法拍摄火箭云",
+    "twilightDesc": "白天（太阳高度角 6.7°）· 无法拍摄火箭云",
     "status": "go",
-    "debris_polygons": [
-      [
-        [
-          26.96667,
-          107.53333
-        ],
-        [
-          26.86667,
-          107.96667
-        ],
-        [
-          26.66667,
-          107.9
-        ],
-        [
-          26.78333,
-          107.46667
-        ]
-      ],
-      [
-        [
-          25.43333,
-          111.85
-        ],
-        [
-          25.21667,
-          112.51667
-        ],
-        [
-          24.93333,
-          112.41667
-        ],
-        [
-          25.16667,
-          111.75
-        ]
-      ]
-    ],
-    "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
     {
