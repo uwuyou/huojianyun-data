@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-11-27T19:16:58+08:00",
+  "fetched_at": "2026-11-28T04:11:36+08:00",
   "source": "DAIP NOTAM + Launch Library 2 + RocketLaunch.Live",
   "next_launch": {
-    "code": "Long March 6A · Unknown Payload",
+    "code": "Long March 6A · Yaogan 50-04",
     "site": "太原卫星发射中心",
     "site_lat": 38.849,
     "site_lng": 111.608,
-    "mission_type": "Unknown",
+    "mission_type": "Government/Top Secret",
     "window_start": "2026-11-27T20:53:00+08:00",
     "window_end": "2026-11-27T21:15:00+08:00",
-    "est_t0": "2026-11-27T20:42:00+08:00",
+    "est_t0": "2026-11-27T20:47:00+08:00",
     "debris_zone": "落区详情待官方公布",
     "debris_lat": 38.849,
     "debris_lng": 111.608,
@@ -42,91 +42,15 @@
         111.608
       ]
     ],
-    "label": "2026年11月27日 21:00 · Long March 6A",
-    "launchTime": "2026-11-27T13:00:00.000Z",
-    "sunAlt": -43.59,
+    "label": "2026年11月27日 21:05 · Long March 6A",
+    "launchTime": "2026-11-27T13:05:00.000Z",
+    "sunAlt": -44.55,
     "twilight": false,
-    "twilightDesc": "深夜（太阳高度角 -43.6°）· 无法拍摄火箭云",
+    "twilightDesc": "深夜（太阳高度角 -44.6°）· 无法拍摄火箭云",
     "status": "go",
-    "source": "Launch Library 2 + RocketLaunch.Live"
+    "source": "Launch Library 2"
   },
   "upcoming": [
-    {
-      "code": "A6107/26",
-      "site": "酒泉卫星发射中心",
-      "site_lat": 40.967,
-      "site_lng": 100.267,
-      "mission_type": "载人航天/商业发射",
-      "window_start": "2026-11-27T20:53:00+08:00",
-      "window_end": "2026-11-27T21:15:00+08:00",
-      "est_t0": "2026-11-27T20:35:00+08:00",
-      "debris_zone": "落区 (37.99°N, 107.74°E)",
-      "debris_lat": 37.9917,
-      "debris_lng": 107.7417,
-      "direction": "东南",
-      "twilight_favorable": false,
-      "note": "深夜发射，高空进入地影，无法拍摄",
-      "spots": [
-        {
-          "name": "45号观礼点",
-          "type": "官方",
-          "detail": "约2km · 正对发射工位",
-          "lat": 40.955,
-          "lng": 100.285
-        },
-        {
-          "name": "96号观礼点",
-          "type": "官方",
-          "detail": "约2km · 地势略高",
-          "lat": 40.95,
-          "lng": 100.29
-        },
-        {
-          "name": "巴彦宝格德狼心山",
-          "type": "外围",
-          "detail": "远眺发射场全景",
-          "lat": 40.92,
-          "lng": 100.24
-        }
-      ],
-      "path": [
-        [
-          40.967,
-          100.267
-        ],
-        [
-          37.9917,
-          107.7417
-        ]
-      ],
-      "label": "2026年11月27日 20:53 · A6107/26",
-      "launchTime": "2026-11-27T12:53:00.000Z",
-      "sunAlt": -35.51,
-      "twilight": false,
-      "twilightDesc": "深夜（太阳高度角 -35.5°）· 无法拍摄火箭云",
-      "status": "go",
-      "debris_polygons": [
-        [
-          [
-            38.13333,
-            107.93333
-          ],
-          [
-            37.95,
-            108.0
-          ],
-          [
-            37.85,
-            107.55
-          ],
-          [
-            38.03333,
-            107.48333
-          ]
-        ]
-      ],
-      "source": "DAIP NOTAM"
-    },
     {
       "code": "Long March 6C · Unknown Payload",
       "site": "太原卫星发射中心",
